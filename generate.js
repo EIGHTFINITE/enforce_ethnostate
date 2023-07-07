@@ -283,7 +283,7 @@ for (; i < cultures.length; i++) {
 	string += "			add_culture_standard_of_living_modifier = {\n"
 	string += "				culture = "+cultures[i]+"\n"
 	string += "				months = very_long_modifier_time\n"
-	string += "				multiplier = 99\n"
+	string += "				multiplier = 200\n"
 	string += "			}\n"
 	string += "		}\n"
 }
