@@ -39,7 +39,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:north_german }
+				NOT = { owner = { country_has_primary_culture = cu:north_german } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:north_german
@@ -51,7 +51,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:south_german }
+				NOT = { owner = { country_has_primary_culture = cu:south_german } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:south_german
@@ -63,7 +63,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ashkenazi }
+				NOT = { owner = { country_has_primary_culture = cu:ashkenazi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ashkenazi
@@ -75,7 +75,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:dutch }
+				NOT = { owner = { country_has_primary_culture = cu:dutch } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:dutch
@@ -87,7 +87,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:flemish }
+				NOT = { owner = { country_has_primary_culture = cu:flemish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:flemish
@@ -99,7 +99,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:wallonian }
+				NOT = { owner = { country_has_primary_culture = cu:wallonian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:wallonian
@@ -111,7 +111,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:boer }
+				NOT = { owner = { country_has_primary_culture = cu:boer } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:boer
@@ -123,7 +123,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:alemannic }
+				NOT = { owner = { country_has_primary_culture = cu:alemannic } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:alemannic
@@ -135,7 +135,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:swedish }
+				NOT = { owner = { country_has_primary_culture = cu:swedish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:swedish
@@ -147,7 +147,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:danish }
+				NOT = { owner = { country_has_primary_culture = cu:danish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:danish
@@ -159,7 +159,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:norwegian }
+				NOT = { owner = { country_has_primary_culture = cu:norwegian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:norwegian
@@ -171,7 +171,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:icelandic }
+				NOT = { owner = { country_has_primary_culture = cu:icelandic } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:icelandic
@@ -183,7 +183,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:finnish }
+				NOT = { owner = { country_has_primary_culture = cu:finnish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:finnish
@@ -195,7 +195,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sami }
+				NOT = { owner = { country_has_primary_culture = cu:sami } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sami
@@ -207,7 +207,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:british }
+				NOT = { owner = { country_has_primary_culture = cu:british } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:british
@@ -219,7 +219,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:irish }
+				NOT = { owner = { country_has_primary_culture = cu:irish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:irish
@@ -231,7 +231,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:australian }
+				NOT = { owner = { country_has_primary_culture = cu:australian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:australian
@@ -243,7 +243,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:north_italian }
+				NOT = { owner = { country_has_primary_culture = cu:north_italian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:north_italian
@@ -255,7 +255,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:south_italian }
+				NOT = { owner = { country_has_primary_culture = cu:south_italian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:south_italian
@@ -267,7 +267,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:maltese }
+				NOT = { owner = { country_has_primary_culture = cu:maltese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:maltese
@@ -279,7 +279,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:basque }
+				NOT = { owner = { country_has_primary_culture = cu:basque } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:basque
@@ -291,7 +291,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:spanish }
+				NOT = { owner = { country_has_primary_culture = cu:spanish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:spanish
@@ -303,7 +303,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:catalan }
+				NOT = { owner = { country_has_primary_culture = cu:catalan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:catalan
@@ -315,7 +315,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:portuguese }
+				NOT = { owner = { country_has_primary_culture = cu:portuguese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:portuguese
@@ -327,7 +327,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:french }
+				NOT = { owner = { country_has_primary_culture = cu:french } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:french
@@ -339,7 +339,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:occitan }
+				NOT = { owner = { country_has_primary_culture = cu:occitan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:occitan
@@ -351,7 +351,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:breton }
+				NOT = { owner = { country_has_primary_culture = cu:breton } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:breton
@@ -363,7 +363,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:croat }
+				NOT = { owner = { country_has_primary_culture = cu:croat } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:croat
@@ -375,7 +375,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:serb }
+				NOT = { owner = { country_has_primary_culture = cu:serb } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:serb
@@ -387,7 +387,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bulgarian }
+				NOT = { owner = { country_has_primary_culture = cu:bulgarian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bulgarian
@@ -399,7 +399,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:albanian }
+				NOT = { owner = { country_has_primary_culture = cu:albanian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:albanian
@@ -411,7 +411,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:slovene }
+				NOT = { owner = { country_has_primary_culture = cu:slovene } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:slovene
@@ -423,7 +423,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bosniak }
+				NOT = { owner = { country_has_primary_culture = cu:bosniak } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bosniak
@@ -435,7 +435,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:romanian }
+				NOT = { owner = { country_has_primary_culture = cu:romanian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:romanian
@@ -447,7 +447,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:hungarian }
+				NOT = { owner = { country_has_primary_culture = cu:hungarian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:hungarian
@@ -459,7 +459,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:polish }
+				NOT = { owner = { country_has_primary_culture = cu:polish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:polish
@@ -471,7 +471,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:lithuanian }
+				NOT = { owner = { country_has_primary_culture = cu:lithuanian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:lithuanian
@@ -483,7 +483,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:czech }
+				NOT = { owner = { country_has_primary_culture = cu:czech } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:czech
@@ -495,7 +495,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:slovak }
+				NOT = { owner = { country_has_primary_culture = cu:slovak } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:slovak
@@ -507,7 +507,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:russian }
+				NOT = { owner = { country_has_primary_culture = cu:russian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:russian
@@ -519,7 +519,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:byelorussian }
+				NOT = { owner = { country_has_primary_culture = cu:byelorussian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:byelorussian
@@ -531,7 +531,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ukrainian }
+				NOT = { owner = { country_has_primary_culture = cu:ukrainian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ukrainian
@@ -543,7 +543,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ugrian }
+				NOT = { owner = { country_has_primary_culture = cu:ugrian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ugrian
@@ -555,7 +555,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:latvian }
+				NOT = { owner = { country_has_primary_culture = cu:latvian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:latvian
@@ -567,7 +567,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:estonian }
+				NOT = { owner = { country_has_primary_culture = cu:estonian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:estonian
@@ -579,7 +579,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:greek }
+				NOT = { owner = { country_has_primary_culture = cu:greek } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:greek
@@ -591,7 +591,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:georgian }
+				NOT = { owner = { country_has_primary_culture = cu:georgian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:georgian
@@ -603,7 +603,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:armenian }
+				NOT = { owner = { country_has_primary_culture = cu:armenian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:armenian
@@ -615,7 +615,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sephardic }
+				NOT = { owner = { country_has_primary_culture = cu:sephardic } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sephardic
@@ -627,7 +627,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:turkish }
+				NOT = { owner = { country_has_primary_culture = cu:turkish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:turkish
@@ -639,7 +639,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:azerbaijani }
+				NOT = { owner = { country_has_primary_culture = cu:azerbaijani } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:azerbaijani
@@ -651,7 +651,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:north_caucasian }
+				NOT = { owner = { country_has_primary_culture = cu:north_caucasian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:north_caucasian
@@ -663,7 +663,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:maghrebi }
+				NOT = { owner = { country_has_primary_culture = cu:maghrebi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:maghrebi
@@ -675,7 +675,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:misri }
+				NOT = { owner = { country_has_primary_culture = cu:misri } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:misri
@@ -687,7 +687,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mashriqi }
+				NOT = { owner = { country_has_primary_culture = cu:mashriqi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mashriqi
@@ -699,7 +699,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bedouin }
+				NOT = { owner = { country_has_primary_culture = cu:bedouin } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bedouin
@@ -711,7 +711,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:berber }
+				NOT = { owner = { country_has_primary_culture = cu:berber } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:berber
@@ -723,7 +723,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:persian }
+				NOT = { owner = { country_has_primary_culture = cu:persian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:persian
@@ -735,7 +735,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:uzbek }
+				NOT = { owner = { country_has_primary_culture = cu:uzbek } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:uzbek
@@ -747,7 +747,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kazak }
+				NOT = { owner = { country_has_primary_culture = cu:kazak } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kazak
@@ -759,7 +759,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kirgiz }
+				NOT = { owner = { country_has_primary_culture = cu:kirgiz } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kirgiz
@@ -771,7 +771,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tajik }
+				NOT = { owner = { country_has_primary_culture = cu:tajik } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tajik
@@ -783,7 +783,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:uighur }
+				NOT = { owner = { country_has_primary_culture = cu:uighur } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:uighur
@@ -795,7 +795,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:pashtun }
+				NOT = { owner = { country_has_primary_culture = cu:pashtun } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:pashtun
@@ -807,7 +807,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:baluchi }
+				NOT = { owner = { country_has_primary_culture = cu:baluchi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:baluchi
@@ -819,7 +819,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:hazara }
+				NOT = { owner = { country_has_primary_culture = cu:hazara } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:hazara
@@ -831,7 +831,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:turkmen }
+				NOT = { owner = { country_has_primary_culture = cu:turkmen } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:turkmen
@@ -843,7 +843,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kurdish }
+				NOT = { owner = { country_has_primary_culture = cu:kurdish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kurdish
@@ -855,7 +855,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tatar }
+				NOT = { owner = { country_has_primary_culture = cu:tatar } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tatar
@@ -867,7 +867,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mongol }
+				NOT = { owner = { country_has_primary_culture = cu:mongol } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mongol
@@ -879,7 +879,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kalmyk }
+				NOT = { owner = { country_has_primary_culture = cu:kalmyk } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kalmyk
@@ -891,7 +891,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:siberian }
+				NOT = { owner = { country_has_primary_culture = cu:siberian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:siberian
@@ -903,7 +903,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yakut }
+				NOT = { owner = { country_has_primary_culture = cu:yakut } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yakut
@@ -915,7 +915,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tibetan }
+				NOT = { owner = { country_has_primary_culture = cu:tibetan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tibetan
@@ -927,7 +927,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:assamese }
+				NOT = { owner = { country_has_primary_culture = cu:assamese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:assamese
@@ -939,7 +939,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bengali }
+				NOT = { owner = { country_has_primary_culture = cu:bengali } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bengali
@@ -951,7 +951,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bihari }
+				NOT = { owner = { country_has_primary_culture = cu:bihari } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bihari
@@ -963,7 +963,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:manipuri }
+				NOT = { owner = { country_has_primary_culture = cu:manipuri } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:manipuri
@@ -975,7 +975,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nepali }
+				NOT = { owner = { country_has_primary_culture = cu:nepali } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nepali
@@ -987,7 +987,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:oriya }
+				NOT = { owner = { country_has_primary_culture = cu:oriya } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:oriya
@@ -999,7 +999,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sinhala }
+				NOT = { owner = { country_has_primary_culture = cu:sinhala } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sinhala
@@ -1011,7 +1011,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:avadhi }
+				NOT = { owner = { country_has_primary_culture = cu:avadhi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:avadhi
@@ -1023,7 +1023,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kanauji }
+				NOT = { owner = { country_has_primary_culture = cu:kanauji } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kanauji
@@ -1035,7 +1035,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:panjabi }
+				NOT = { owner = { country_has_primary_culture = cu:panjabi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:panjabi
@@ -1047,7 +1047,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kashmiri }
+				NOT = { owner = { country_has_primary_culture = cu:kashmiri } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kashmiri
@@ -1059,7 +1059,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:gujarati }
+				NOT = { owner = { country_has_primary_culture = cu:gujarati } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:gujarati
@@ -1071,7 +1071,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:marathi }
+				NOT = { owner = { country_has_primary_culture = cu:marathi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:marathi
@@ -1083,7 +1083,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sindi }
+				NOT = { owner = { country_has_primary_culture = cu:sindi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sindi
@@ -1095,7 +1095,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:rajput }
+				NOT = { owner = { country_has_primary_culture = cu:rajput } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:rajput
@@ -1107,7 +1107,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kannada }
+				NOT = { owner = { country_has_primary_culture = cu:kannada } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kannada
@@ -1119,7 +1119,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:malayalam }
+				NOT = { owner = { country_has_primary_culture = cu:malayalam } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:malayalam
@@ -1131,7 +1131,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tamil }
+				NOT = { owner = { country_has_primary_culture = cu:tamil } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tamil
@@ -1143,7 +1143,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:telegu }
+				NOT = { owner = { country_has_primary_culture = cu:telegu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:telegu
@@ -1155,7 +1155,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:vietnamese }
+				NOT = { owner = { country_has_primary_culture = cu:vietnamese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:vietnamese
@@ -1167,7 +1167,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:khmer }
+				NOT = { owner = { country_has_primary_culture = cu:khmer } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:khmer
@@ -1179,7 +1179,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:batak }
+				NOT = { owner = { country_has_primary_culture = cu:batak } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:batak
@@ -1191,7 +1191,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:dayak }
+				NOT = { owner = { country_has_primary_culture = cu:dayak } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:dayak
@@ -1203,7 +1203,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:malagasy }
+				NOT = { owner = { country_has_primary_culture = cu:malagasy } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:malagasy
@@ -1215,7 +1215,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:filipino }
+				NOT = { owner = { country_has_primary_culture = cu:filipino } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:filipino
@@ -1227,7 +1227,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:moro }
+				NOT = { owner = { country_has_primary_culture = cu:moro } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:moro
@@ -1239,7 +1239,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:javan }
+				NOT = { owner = { country_has_primary_culture = cu:javan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:javan
@@ -1251,7 +1251,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:moluccan }
+				NOT = { owner = { country_has_primary_culture = cu:moluccan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:moluccan
@@ -1263,7 +1263,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:thai }
+				NOT = { owner = { country_has_primary_culture = cu:thai } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:thai
@@ -1275,7 +1275,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mon }
+				NOT = { owner = { country_has_primary_culture = cu:mon } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mon
@@ -1287,7 +1287,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:khmu }
+				NOT = { owner = { country_has_primary_culture = cu:khmu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:khmu
@@ -1299,7 +1299,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:lao }
+				NOT = { owner = { country_has_primary_culture = cu:lao } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:lao
@@ -1311,7 +1311,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:shan }
+				NOT = { owner = { country_has_primary_culture = cu:shan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:shan
@@ -1323,7 +1323,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:burmese }
+				NOT = { owner = { country_has_primary_culture = cu:burmese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:burmese
@@ -1335,7 +1335,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kachin }
+				NOT = { owner = { country_has_primary_culture = cu:kachin } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kachin
@@ -1347,7 +1347,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:karen }
+				NOT = { owner = { country_has_primary_culture = cu:karen } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:karen
@@ -1359,7 +1359,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:japanese }
+				NOT = { owner = { country_has_primary_culture = cu:japanese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:japanese
@@ -1371,7 +1371,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:manchu }
+				NOT = { owner = { country_has_primary_culture = cu:manchu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:manchu
@@ -1383,7 +1383,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:han }
+				NOT = { owner = { country_has_primary_culture = cu:han } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:han
@@ -1395,7 +1395,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:korean }
+				NOT = { owner = { country_has_primary_culture = cu:korean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:korean
@@ -1407,7 +1407,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ainu }
+				NOT = { owner = { country_has_primary_culture = cu:ainu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ainu
@@ -1419,7 +1419,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:hakka }
+				NOT = { owner = { country_has_primary_culture = cu:hakka } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:hakka
@@ -1431,7 +1431,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:miao }
+				NOT = { owner = { country_has_primary_culture = cu:miao } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:miao
@@ -1443,7 +1443,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:min }
+				NOT = { owner = { country_has_primary_culture = cu:min } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:min
@@ -1455,7 +1455,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:zhuang }
+				NOT = { owner = { country_has_primary_culture = cu:zhuang } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:zhuang
@@ -1467,7 +1467,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yi }
+				NOT = { owner = { country_has_primary_culture = cu:yi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yi
@@ -1479,7 +1479,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yue }
+				NOT = { owner = { country_has_primary_culture = cu:yue } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yue
@@ -1491,7 +1491,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:polynesian }
+				NOT = { owner = { country_has_primary_culture = cu:polynesian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:polynesian
@@ -1503,7 +1503,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:hawaiian }
+				NOT = { owner = { country_has_primary_culture = cu:hawaiian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:hawaiian
@@ -1515,7 +1515,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:melanesian }
+				NOT = { owner = { country_has_primary_culture = cu:melanesian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:melanesian
@@ -1527,7 +1527,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:micronesian }
+				NOT = { owner = { country_has_primary_culture = cu:micronesian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:micronesian
@@ -1539,7 +1539,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:maori }
+				NOT = { owner = { country_has_primary_culture = cu:maori } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:maori
@@ -1551,7 +1551,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yuanzhumin }
+				NOT = { owner = { country_has_primary_culture = cu:yuanzhumin } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yuanzhumin
@@ -1563,7 +1563,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:aborigine }
+				NOT = { owner = { country_has_primary_culture = cu:aborigine } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:aborigine
@@ -1575,7 +1575,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:zapotec }
+				NOT = { owner = { country_has_primary_culture = cu:zapotec } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:zapotec
@@ -1587,7 +1587,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mayan }
+				NOT = { owner = { country_has_primary_culture = cu:mayan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mayan
@@ -1599,7 +1599,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nahua }
+				NOT = { owner = { country_has_primary_culture = cu:nahua } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nahua
@@ -1611,7 +1611,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tarascan }
+				NOT = { owner = { country_has_primary_culture = cu:tarascan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tarascan
@@ -1623,7 +1623,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:quechua }
+				NOT = { owner = { country_has_primary_culture = cu:quechua } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:quechua
@@ -1635,7 +1635,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:guarani }
+				NOT = { owner = { country_has_primary_culture = cu:guarani } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:guarani
@@ -1647,7 +1647,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:aimara }
+				NOT = { owner = { country_has_primary_culture = cu:aimara } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:aimara
@@ -1659,7 +1659,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:amazonian }
+				NOT = { owner = { country_has_primary_culture = cu:amazonian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:amazonian
@@ -1671,7 +1671,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:patagonian }
+				NOT = { owner = { country_has_primary_culture = cu:patagonian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:patagonian
@@ -1683,7 +1683,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:guajiro }
+				NOT = { owner = { country_has_primary_culture = cu:guajiro } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:guajiro
@@ -1695,7 +1695,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tupinamba }
+				NOT = { owner = { country_has_primary_culture = cu:tupinamba } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tupinamba
@@ -1707,7 +1707,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:metis }
+				NOT = { owner = { country_has_primary_culture = cu:metis } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:metis
@@ -1719,7 +1719,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:dakota }
+				NOT = { owner = { country_has_primary_culture = cu:dakota } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:dakota
@@ -1731,7 +1731,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:cherokee }
+				NOT = { owner = { country_has_primary_culture = cu:cherokee } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:cherokee
@@ -1743,7 +1743,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:muskogean }
+				NOT = { owner = { country_has_primary_culture = cu:muskogean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:muskogean
@@ -1755,7 +1755,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:pueblo }
+				NOT = { owner = { country_has_primary_culture = cu:pueblo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:pueblo
@@ -1767,7 +1767,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:inuit }
+				NOT = { owner = { country_has_primary_culture = cu:inuit } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:inuit
@@ -1779,7 +1779,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:cree }
+				NOT = { owner = { country_has_primary_culture = cu:cree } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:cree
@@ -1791,7 +1791,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:navajo }
+				NOT = { owner = { country_has_primary_culture = cu:navajo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:navajo
@@ -1803,7 +1803,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:athabaskan }
+				NOT = { owner = { country_has_primary_culture = cu:athabaskan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:athabaskan
@@ -1815,7 +1815,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:salish }
+				NOT = { owner = { country_has_primary_culture = cu:salish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:salish
@@ -1827,7 +1827,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nez_perce }
+				NOT = { owner = { country_has_primary_culture = cu:nez_perce } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nez_perce
@@ -1839,7 +1839,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:siouan }
+				NOT = { owner = { country_has_primary_culture = cu:siouan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:siouan
@@ -1851,7 +1851,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:comanche }
+				NOT = { owner = { country_has_primary_culture = cu:comanche } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:comanche
@@ -1863,7 +1863,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:algonquian }
+				NOT = { owner = { country_has_primary_culture = cu:algonquian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:algonquian
@@ -1875,7 +1875,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:iroquoian }
+				NOT = { owner = { country_has_primary_culture = cu:iroquoian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:iroquoian
@@ -1887,7 +1887,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:caddoan }
+				NOT = { owner = { country_has_primary_culture = cu:caddoan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:caddoan
@@ -1899,7 +1899,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:paiute }
+				NOT = { owner = { country_has_primary_culture = cu:paiute } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:paiute
@@ -1911,7 +1911,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:hokan }
+				NOT = { owner = { country_has_primary_culture = cu:hokan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:hokan
@@ -1923,7 +1923,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:apache }
+				NOT = { owner = { country_has_primary_culture = cu:apache } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:apache
@@ -1935,7 +1935,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:oodham }
+				NOT = { owner = { country_has_primary_culture = cu:oodham } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:oodham
@@ -1947,7 +1947,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mixtec }
+				NOT = { owner = { country_has_primary_culture = cu:mixtec } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mixtec
@@ -1959,7 +1959,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:muisca }
+				NOT = { owner = { country_has_primary_culture = cu:muisca } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:muisca
@@ -1971,7 +1971,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:miskito }
+				NOT = { owner = { country_has_primary_culture = cu:miskito } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:miskito
@@ -1983,7 +1983,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:cariban }
+				NOT = { owner = { country_has_primary_culture = cu:cariban } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:cariban
@@ -1995,7 +1995,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yankee }
+				NOT = { owner = { country_has_primary_culture = cu:yankee } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yankee
@@ -2007,7 +2007,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:dixie }
+				NOT = { owner = { country_has_primary_culture = cu:dixie } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:dixie
@@ -2019,7 +2019,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mexican }
+				NOT = { owner = { country_has_primary_culture = cu:mexican } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mexican
@@ -2031,7 +2031,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:central_american }
+				NOT = { owner = { country_has_primary_culture = cu:central_american } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:central_american
@@ -2043,7 +2043,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:caribeno }
+				NOT = { owner = { country_has_primary_culture = cu:caribeno } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:caribeno
@@ -2055,7 +2055,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:north_andean }
+				NOT = { owner = { country_has_primary_culture = cu:north_andean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:north_andean
@@ -2067,7 +2067,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:south_andean }
+				NOT = { owner = { country_has_primary_culture = cu:south_andean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:south_andean
@@ -2079,7 +2079,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:platinean }
+				NOT = { owner = { country_has_primary_culture = cu:platinean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:platinean
@@ -2091,7 +2091,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:brazilian }
+				NOT = { owner = { country_has_primary_culture = cu:brazilian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:brazilian
@@ -2103,7 +2103,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:afro_american }
+				NOT = { owner = { country_has_primary_culture = cu:afro_american } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_american
@@ -2115,7 +2115,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:afro_caribbean }
+				NOT = { owner = { country_has_primary_culture = cu:afro_caribbean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_caribbean
@@ -2127,7 +2127,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:afro_caribeno }
+				NOT = { owner = { country_has_primary_culture = cu:afro_caribeno } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_caribeno
@@ -2139,7 +2139,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:afro_brazilian }
+				NOT = { owner = { country_has_primary_culture = cu:afro_brazilian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_brazilian
@@ -2151,7 +2151,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:afro_antillean }
+				NOT = { owner = { country_has_primary_culture = cu:afro_antillean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afro_antillean
@@ -2163,7 +2163,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:akan }
+				NOT = { owner = { country_has_primary_culture = cu:akan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:akan
@@ -2175,7 +2175,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bambara }
+				NOT = { owner = { country_has_primary_culture = cu:bambara } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bambara
@@ -2187,7 +2187,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bassa }
+				NOT = { owner = { country_has_primary_culture = cu:bassa } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bassa
@@ -2199,7 +2199,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:dyula }
+				NOT = { owner = { country_has_primary_culture = cu:dyula } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:dyula
@@ -2211,7 +2211,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:edo }
+				NOT = { owner = { country_has_primary_culture = cu:edo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:edo
@@ -2223,7 +2223,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ewe }
+				NOT = { owner = { country_has_primary_culture = cu:ewe } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ewe
@@ -2235,7 +2235,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:fon }
+				NOT = { owner = { country_has_primary_culture = cu:fon } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:fon
@@ -2247,7 +2247,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:fulbe }
+				NOT = { owner = { country_has_primary_culture = cu:fulbe } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:fulbe
@@ -2259,7 +2259,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:haratin }
+				NOT = { owner = { country_has_primary_culture = cu:haratin } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:haratin
@@ -2271,7 +2271,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:hausa }
+				NOT = { owner = { country_has_primary_culture = cu:hausa } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:hausa
@@ -2283,7 +2283,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ibibio }
+				NOT = { owner = { country_has_primary_culture = cu:ibibio } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ibibio
@@ -2295,7 +2295,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ibo }
+				NOT = { owner = { country_has_primary_culture = cu:ibo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ibo
@@ -2307,7 +2307,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kissi }
+				NOT = { owner = { country_has_primary_culture = cu:kissi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kissi
@@ -2319,7 +2319,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kru }
+				NOT = { owner = { country_has_primary_culture = cu:kru } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kru
@@ -2331,7 +2331,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mande }
+				NOT = { owner = { country_has_primary_culture = cu:mande } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mande
@@ -2343,7 +2343,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bidan }
+				NOT = { owner = { country_has_primary_culture = cu:bidan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bidan
@@ -2355,7 +2355,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mossi }
+				NOT = { owner = { country_has_primary_culture = cu:mossi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mossi
@@ -2367,7 +2367,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:senufo }
+				NOT = { owner = { country_has_primary_culture = cu:senufo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:senufo
@@ -2379,7 +2379,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:songhai }
+				NOT = { owner = { country_has_primary_culture = cu:songhai } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:songhai
@@ -2391,7 +2391,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tiv }
+				NOT = { owner = { country_has_primary_culture = cu:tiv } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tiv
@@ -2403,7 +2403,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tuareg }
+				NOT = { owner = { country_has_primary_culture = cu:tuareg } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tuareg
@@ -2415,7 +2415,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:wolof }
+				NOT = { owner = { country_has_primary_culture = cu:wolof } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:wolof
@@ -2427,7 +2427,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yoruba }
+				NOT = { owner = { country_has_primary_culture = cu:yoruba } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yoruba
@@ -2439,7 +2439,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bakongo }
+				NOT = { owner = { country_has_primary_culture = cu:bakongo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bakongo
@@ -2451,7 +2451,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:baguirmi }
+				NOT = { owner = { country_has_primary_culture = cu:baguirmi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:baguirmi
@@ -2463,7 +2463,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:fang }
+				NOT = { owner = { country_has_primary_culture = cu:fang } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:fang
@@ -2475,7 +2475,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kanuri }
+				NOT = { owner = { country_has_primary_culture = cu:kanuri } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kanuri
@@ -2487,7 +2487,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:luba }
+				NOT = { owner = { country_has_primary_culture = cu:luba } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:luba
@@ -2499,7 +2499,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:lunda }
+				NOT = { owner = { country_has_primary_culture = cu:lunda } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:lunda
@@ -2511,7 +2511,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:mongo }
+				NOT = { owner = { country_has_primary_culture = cu:mongo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:mongo
@@ -2523,7 +2523,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sara }
+				NOT = { owner = { country_has_primary_culture = cu:sara } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sara
@@ -2535,7 +2535,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:teda }
+				NOT = { owner = { country_has_primary_culture = cu:teda } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:teda
@@ -2547,7 +2547,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:equatorial_bantu }
+				NOT = { owner = { country_has_primary_culture = cu:equatorial_bantu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:equatorial_bantu
@@ -2559,7 +2559,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:fluvian_bantu }
+				NOT = { owner = { country_has_primary_culture = cu:fluvian_bantu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:fluvian_bantu
@@ -2571,7 +2571,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nilotic }
+				NOT = { owner = { country_has_primary_culture = cu:nilotic } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nilotic
@@ -2583,7 +2583,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:amhara }
+				NOT = { owner = { country_has_primary_culture = cu:amhara } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:amhara
@@ -2595,7 +2595,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:afar }
+				NOT = { owner = { country_has_primary_culture = cu:afar } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:afar
@@ -2607,7 +2607,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:azande }
+				NOT = { owner = { country_has_primary_culture = cu:azande } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:azande
@@ -2619,7 +2619,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:baganda }
+				NOT = { owner = { country_has_primary_culture = cu:baganda } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:baganda
@@ -2631,7 +2631,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:beja }
+				NOT = { owner = { country_has_primary_culture = cu:beja } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:beja
@@ -2643,7 +2643,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:dinka }
+				NOT = { owner = { country_has_primary_culture = cu:dinka } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:dinka
@@ -2655,7 +2655,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:fur }
+				NOT = { owner = { country_has_primary_culture = cu:fur } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:fur
@@ -2667,7 +2667,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kikuyu }
+				NOT = { owner = { country_has_primary_culture = cu:kikuyu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kikuyu
@@ -2679,7 +2679,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:luo }
+				NOT = { owner = { country_has_primary_culture = cu:luo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:luo
@@ -2691,7 +2691,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:maasai }
+				NOT = { owner = { country_has_primary_culture = cu:maasai } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:maasai
@@ -2703,7 +2703,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nuer }
+				NOT = { owner = { country_has_primary_culture = cu:nuer } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nuer
@@ -2715,7 +2715,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nuba }
+				NOT = { owner = { country_has_primary_culture = cu:nuba } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nuba
@@ -2727,7 +2727,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:oromo }
+				NOT = { owner = { country_has_primary_culture = cu:oromo } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:oromo
@@ -2739,7 +2739,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ruanda }
+				NOT = { owner = { country_has_primary_culture = cu:ruanda } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ruanda
@@ -2751,7 +2751,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:rundi }
+				NOT = { owner = { country_has_primary_culture = cu:rundi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:rundi
@@ -2763,7 +2763,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sidama }
+				NOT = { owner = { country_has_primary_culture = cu:sidama } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sidama
@@ -2775,7 +2775,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:somali }
+				NOT = { owner = { country_has_primary_culture = cu:somali } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:somali
@@ -2787,7 +2787,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sudanese }
+				NOT = { owner = { country_has_primary_culture = cu:sudanese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sudanese
@@ -2799,7 +2799,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sukuma }
+				NOT = { owner = { country_has_primary_culture = cu:sukuma } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sukuma
@@ -2811,7 +2811,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:swahili }
+				NOT = { owner = { country_has_primary_culture = cu:swahili } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:swahili
@@ -2823,7 +2823,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tigray }
+				NOT = { owner = { country_has_primary_culture = cu:tigray } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tigray
@@ -2835,7 +2835,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:unyamwezi }
+				NOT = { owner = { country_has_primary_culture = cu:unyamwezi } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:unyamwezi
@@ -2847,7 +2847,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:lacustrine_bantu }
+				NOT = { owner = { country_has_primary_culture = cu:lacustrine_bantu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:lacustrine_bantu
@@ -2859,7 +2859,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:chewa }
+				NOT = { owner = { country_has_primary_culture = cu:chewa } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:chewa
@@ -2871,7 +2871,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:herero }
+				NOT = { owner = { country_has_primary_culture = cu:herero } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:herero
@@ -2883,7 +2883,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:khoisan }
+				NOT = { owner = { country_has_primary_culture = cu:khoisan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:khoisan
@@ -2895,7 +2895,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:lomwe }
+				NOT = { owner = { country_has_primary_culture = cu:lomwe } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:lomwe
@@ -2907,7 +2907,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:makua }
+				NOT = { owner = { country_has_primary_culture = cu:makua } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:makua
@@ -2919,7 +2919,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:nguni }
+				NOT = { owner = { country_has_primary_culture = cu:nguni } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:nguni
@@ -2931,7 +2931,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:ovimbundu }
+				NOT = { owner = { country_has_primary_culture = cu:ovimbundu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:ovimbundu
@@ -2943,7 +2943,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sena }
+				NOT = { owner = { country_has_primary_culture = cu:sena } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sena
@@ -2955,7 +2955,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:shona }
+				NOT = { owner = { country_has_primary_culture = cu:shona } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:shona
@@ -2967,7 +2967,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sotho }
+				NOT = { owner = { country_has_primary_culture = cu:sotho } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sotho
@@ -2979,7 +2979,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tonga }
+				NOT = { owner = { country_has_primary_culture = cu:tonga } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tonga
@@ -2991,7 +2991,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tswana }
+				NOT = { owner = { country_has_primary_culture = cu:tswana } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tswana
@@ -3003,7 +3003,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:xhosa }
+				NOT = { owner = { country_has_primary_culture = cu:xhosa } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:xhosa
@@ -3015,7 +3015,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yao }
+				NOT = { owner = { country_has_primary_culture = cu:yao } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yao
@@ -3027,7 +3027,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:zulu }
+				NOT = { owner = { country_has_primary_culture = cu:zulu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:zulu
@@ -3039,7 +3039,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:kavango_bantu }
+				NOT = { owner = { country_has_primary_culture = cu:kavango_bantu } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:kavango_bantu
@@ -3051,7 +3051,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:anglo_canadian }
+				NOT = { owner = { country_has_primary_culture = cu:anglo_canadian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:anglo_canadian
@@ -3063,7 +3063,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:franco_canadian }
+				NOT = { owner = { country_has_primary_culture = cu:franco_canadian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:franco_canadian
@@ -3075,7 +3075,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sorb }
+				NOT = { owner = { country_has_primary_culture = cu:sorb } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sorb
@@ -3087,7 +3087,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:tuvan }
+				NOT = { owner = { country_has_primary_culture = cu:tuvan } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:tuvan
@@ -3099,7 +3099,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:corsican }
+				NOT = { owner = { country_has_primary_culture = cu:corsican } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:corsican
@@ -3111,7 +3111,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:yemenite }
+				NOT = { owner = { country_has_primary_culture = cu:yemenite } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:yemenite
@@ -3123,7 +3123,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:welsh }
+				NOT = { owner = { country_has_primary_culture = cu:welsh } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:welsh
@@ -3135,7 +3135,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:scottish }
+				NOT = { owner = { country_has_primary_culture = cu:scottish } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:scottish
@@ -3147,7 +3147,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:galician }
+				NOT = { owner = { country_has_primary_culture = cu:galician } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:galician
@@ -3159,7 +3159,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:malay }
+				NOT = { owner = { country_has_primary_culture = cu:malay } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:malay
@@ -3171,7 +3171,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:bornean }
+				NOT = { owner = { country_has_primary_culture = cu:bornean } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:bornean
@@ -3183,7 +3183,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:sumatran }
+				NOT = { owner = { country_has_primary_culture = cu:sumatran } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:sumatran
@@ -3195,7 +3195,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:balinese }
+				NOT = { owner = { country_has_primary_culture = cu:balinese } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:balinese
@@ -3207,7 +3207,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:cajun }
+				NOT = { owner = { country_has_primary_culture = cu:cajun } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:cajun
@@ -3219,7 +3219,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:assyrian }
+				NOT = { owner = { country_has_primary_culture = cu:assyrian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:assyrian
@@ -3231,7 +3231,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:circassian }
+				NOT = { owner = { country_has_primary_culture = cu:circassian } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:circassian
@@ -3243,7 +3243,7 @@
 			limit = {
 				owner = ROOT
 				is_incorporated = yes
-				NOT = { country_has_primary_culture = cu:francoprovencal }
+				NOT = { owner = { country_has_primary_culture = cu:francoprovencal } }
 			}
 			add_culture_standard_of_living_modifier = {
 				culture = cu:francoprovencal
