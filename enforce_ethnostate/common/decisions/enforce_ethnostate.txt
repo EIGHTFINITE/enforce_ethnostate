@@ -1,0 +1,3279 @@
+﻿enforce_ethnostate_decision = {
+	is_shown = {
+		has_law = law_type:law_ethnostate
+	}
+
+	possible = {
+		has_law = law_type:law_ethnostate
+		OR = {
+			has_law = law_type:law_national_guard
+			has_law = law_type:law_secret_police
+		}
+		NOR = {
+			has_law = law_type:law_no_home_affairs
+			has_law = law_type:law_guaranteed_liberties
+		}
+		OR = {
+			has_law = law_type:law_dedicated_police
+			has_law = law_type:law_militarized_police
+		}
+		OR = {
+			has_law = law_type:law_censorship
+			has_law = law_type:law_outlawed_dissent
+		}
+		NOR = {
+			has_law = law_type:law_right_of_assembly
+			has_law = law_type:law_protected_speech
+		}
+		NOT = { has_law = law_type:law_worker_protections }
+		has_law = law_type:law_no_social_security
+		NOT = { has_variable = enforce_ethnostate_cooldown }
+	}
+
+	when_taken = {
+		set_variable = {
+			name = enforce_ethnostate_cooldown
+			months = very_long_modifier_time
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:north_german }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:north_german
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:south_german }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:south_german
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ashkenazi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ashkenazi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:dutch }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:dutch
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:flemish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:flemish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:wallonian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:wallonian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:boer }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:boer
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:alemannic }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:alemannic
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:swedish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:swedish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:danish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:danish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:norwegian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:norwegian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:icelandic }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:icelandic
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:finnish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:finnish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sami }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sami
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:british }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:british
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:irish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:irish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:australian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:australian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:north_italian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:north_italian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:south_italian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:south_italian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:maltese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:maltese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:basque }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:basque
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:spanish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:spanish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:catalan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:catalan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:portuguese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:portuguese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:french }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:french
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:occitan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:occitan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:breton }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:breton
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:croat }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:croat
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:serb }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:serb
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bulgarian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bulgarian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:albanian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:albanian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:slovene }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:slovene
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bosniak }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bosniak
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:romanian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:romanian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:hungarian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:hungarian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:polish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:polish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:lithuanian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:lithuanian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:czech }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:czech
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:slovak }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:slovak
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:russian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:russian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:byelorussian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:byelorussian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ukrainian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ukrainian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ugrian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ugrian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:latvian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:latvian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:estonian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:estonian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:greek }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:greek
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:georgian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:georgian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:armenian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:armenian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sephardic }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sephardic
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:turkish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:turkish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:azerbaijani }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:azerbaijani
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:north_caucasian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:north_caucasian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:maghrebi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:maghrebi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:misri }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:misri
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mashriqi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mashriqi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bedouin }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bedouin
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:berber }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:berber
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:persian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:persian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:uzbek }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:uzbek
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kazak }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kazak
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kirgiz }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kirgiz
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tajik }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tajik
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:uighur }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:uighur
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:pashtun }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:pashtun
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:baluchi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:baluchi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:hazara }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:hazara
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:turkmen }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:turkmen
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kurdish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kurdish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tatar }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tatar
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mongol }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mongol
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kalmyk }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kalmyk
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:siberian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:siberian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yakut }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yakut
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tibetan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tibetan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:assamese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:assamese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bengali }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bengali
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bihari }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bihari
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:manipuri }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:manipuri
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nepali }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nepali
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:oriya }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:oriya
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sinhala }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sinhala
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:avadhi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:avadhi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kanauji }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kanauji
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:panjabi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:panjabi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kashmiri }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kashmiri
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:gujarati }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:gujarati
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:marathi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:marathi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sindi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sindi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:rajput }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:rajput
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kannada }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kannada
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:malayalam }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:malayalam
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tamil }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tamil
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:telegu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:telegu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:vietnamese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:vietnamese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:khmer }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:khmer
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:batak }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:batak
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:dayak }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:dayak
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:malagasy }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:malagasy
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:filipino }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:filipino
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:moro }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:moro
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:javan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:javan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:moluccan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:moluccan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:thai }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:thai
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mon }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mon
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:khmu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:khmu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:lao }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:lao
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:shan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:shan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:burmese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:burmese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kachin }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kachin
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:karen }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:karen
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:japanese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:japanese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:manchu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:manchu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:han }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:han
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:korean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:korean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ainu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ainu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:hakka }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:hakka
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:miao }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:miao
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:min }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:min
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:zhuang }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:zhuang
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yue }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yue
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:polynesian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:polynesian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:hawaiian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:hawaiian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:melanesian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:melanesian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:micronesian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:micronesian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:maori }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:maori
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yuanzhumin }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yuanzhumin
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:aborigine }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:aborigine
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:zapotec }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:zapotec
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mayan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mayan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nahua }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nahua
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tarascan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tarascan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:quechua }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:quechua
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:guarani }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:guarani
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:aimara }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:aimara
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:amazonian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:amazonian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:patagonian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:patagonian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:guajiro }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:guajiro
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tupinamba }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tupinamba
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:metis }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:metis
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:dakota }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:dakota
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:cherokee }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:cherokee
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:muskogean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:muskogean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:pueblo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:pueblo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:inuit }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:inuit
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:cree }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:cree
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:navajo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:navajo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:athabaskan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:athabaskan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:salish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:salish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nez_perce }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nez_perce
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:siouan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:siouan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:comanche }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:comanche
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:algonquian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:algonquian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:iroquoian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:iroquoian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:caddoan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:caddoan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:paiute }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:paiute
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:hokan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:hokan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:apache }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:apache
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:oodham }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:oodham
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mixtec }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mixtec
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:muisca }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:muisca
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:miskito }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:miskito
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:cariban }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:cariban
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yankee }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yankee
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:dixie }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:dixie
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mexican }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mexican
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:central_american }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:central_american
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:caribeno }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:caribeno
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:north_andean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:north_andean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:south_andean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:south_andean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:platinean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:platinean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:brazilian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:brazilian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:afro_american }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:afro_american
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:afro_caribbean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:afro_caribbean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:afro_caribeno }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:afro_caribeno
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:afro_brazilian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:afro_brazilian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:afro_antillean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:afro_antillean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:akan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:akan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bambara }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bambara
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bassa }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bassa
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:dyula }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:dyula
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:edo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:edo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ewe }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ewe
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:fon }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:fon
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:fulbe }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:fulbe
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:haratin }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:haratin
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:hausa }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:hausa
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ibibio }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ibibio
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ibo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ibo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kissi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kissi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kru }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kru
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mande }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mande
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bidan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bidan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mossi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mossi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:senufo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:senufo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:songhai }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:songhai
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tiv }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tiv
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tuareg }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tuareg
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:wolof }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:wolof
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yoruba }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yoruba
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bakongo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bakongo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:baguirmi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:baguirmi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:fang }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:fang
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kanuri }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kanuri
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:luba }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:luba
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:lunda }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:lunda
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:mongo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:mongo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sara }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sara
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:teda }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:teda
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:equatorial_bantu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:equatorial_bantu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:fluvian_bantu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:fluvian_bantu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nilotic }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nilotic
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:amhara }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:amhara
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:afar }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:afar
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:azande }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:azande
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:baganda }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:baganda
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:beja }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:beja
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:dinka }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:dinka
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:fur }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:fur
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kikuyu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kikuyu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:luo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:luo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:maasai }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:maasai
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nuer }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nuer
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nuba }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nuba
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:oromo }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:oromo
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ruanda }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ruanda
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:rundi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:rundi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sidama }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sidama
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:somali }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:somali
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sudanese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sudanese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sukuma }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sukuma
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:swahili }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:swahili
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tigray }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tigray
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:unyamwezi }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:unyamwezi
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:lacustrine_bantu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:lacustrine_bantu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:chewa }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:chewa
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:herero }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:herero
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:khoisan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:khoisan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:lomwe }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:lomwe
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:makua }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:makua
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:nguni }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:nguni
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:ovimbundu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:ovimbundu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sena }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sena
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:shona }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:shona
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sotho }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sotho
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tonga }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tonga
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tswana }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tswana
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:xhosa }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:xhosa
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yao }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yao
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:zulu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:zulu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:kavango_bantu }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:kavango_bantu
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:anglo_canadian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:anglo_canadian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:franco_canadian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:franco_canadian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sorb }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sorb
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:tuvan }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:tuvan
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:corsican }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:corsican
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:yemenite }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:yemenite
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:welsh }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:welsh
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:scottish }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:scottish
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:galician }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:galician
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:malay }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:malay
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:bornean }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:bornean
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:sumatran }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:sumatran
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:balinese }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:balinese
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:cajun }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:cajun
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:assyrian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:assyrian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:circassian }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:circassian
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+				NOT = { country_has_primary_culture = cu:francoprovencal }
+			}
+			add_culture_standard_of_living_modifier = {
+				culture = cu:francoprovencal
+				months = very_long_modifier_time
+				multiplier = -99
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 0
+		modifier = {
+			trigger = {
+				AND = {
+					OR = {
+						has_strategy = ai_strategy_reactionary_agenda
+						has_strategy = ai_strategy_nationalist_agenda
+						has_strategy = ai_strategy_maintain_mandate_of_heaven
+					}
+					OR = {
+						has_strategy = ai_strategy_territorial_expansion
+						has_strategy = ai_strategy_colonial_expansion
+						has_strategy = ai_strategy_armed_isolationism
+						has_strategy = ai_strategy_economic_imperialism
+						has_strategy = ai_strategy_unify_china
+					}
+					NOT = { has_strategy = ai_strategy_placate_population }
+				}
+			}
+			add = 1
+		}	
+	}
+}
