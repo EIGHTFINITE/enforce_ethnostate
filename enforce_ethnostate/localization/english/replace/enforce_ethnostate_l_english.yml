@@ -1,0 +1,7 @@
+﻿l_english:
+ concept_emigration_desc:0 "$concept_migration_desc$"
+ concept_starving:0 "$STANDARD_OF_LIVING_NO_ICON_LEVEL_1$"
+ concept_starving_desc:0 "$concept_sol_desc$"
+ enforce_ethnostate_decision:0 "Enforce Ethnostate"
+ enforce_ethnostate_decision_desc:0 "Discriminated Pops will be [Concept('concept_emigration','Displaced')].\nPops Disallowed from [Concept('concept_migration', '$concept_migrating$')] will be [Concept('concept_starving', 'Purged')]."
+ modifier_ethnostate:0 "Foreigners Living in Ethnostate"
