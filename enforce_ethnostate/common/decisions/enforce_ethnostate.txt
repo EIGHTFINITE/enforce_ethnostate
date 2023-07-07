@@ -9,10 +9,6 @@
 			has_law = law_type:law_national_guard
 			has_law = law_type:law_secret_police
 		}
-		NOR = {
-			has_law = law_type:law_no_home_affairs
-			has_law = law_type:law_guaranteed_liberties
-		}
 		OR = {
 			has_law = law_type:law_dedicated_police
 			has_law = law_type:law_militarized_police
@@ -20,10 +16,6 @@
 		OR = {
 			has_law = law_type:law_censorship
 			has_law = law_type:law_outlawed_dissent
-		}
-		NOR = {
-			has_law = law_type:law_right_of_assembly
-			has_law = law_type:law_protected_speech
 		}
 		NOT = { has_law = law_type:law_worker_protections }
 		has_law = law_type:law_no_social_security
