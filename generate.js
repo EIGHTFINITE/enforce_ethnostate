@@ -274,7 +274,18 @@ var cultures = [
 var string = ""
 var i = 0
 for (; i < cultures.length; i++) {
-	string += "		every_scope_state = {\n			limit = {\n				owner = ROOT\n				is_incorporated = yes\n				NOT = { owner = { country_has_primary_culture = "+cultures[i]+" } }\n			}\n			add_culture_standard_of_living_modifier = {\n				culture = "+cultures[i]+"\n				months = very_long_modifier_time\n				multiplier = -99\n			}\n		}\n"
+	string += "		every_scope_state = {\n"
+	string += "			limit = {\n"
+	string += "				owner = ROOT\n"
+	string += "				is_incorporated = yes\n"
+	string += "				NOT = { owner = { country_has_primary_culture = "+cultures[i]+" } }\n"
+	string += "			}\n"
+	string += "			add_culture_standard_of_living_modifier = {\n"
+	string += "				culture = "+cultures[i]+"\n"
+	string += "				months = very_long_modifier_time\n"
+	string += "				multiplier = -99\n"
+	string += "			}\n"
+	string += "		}\n"
 }
 
 console.log(string)
