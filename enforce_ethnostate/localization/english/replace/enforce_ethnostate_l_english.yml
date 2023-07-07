@@ -1,7 +1,7 @@
 ﻿l_english:
  concept_emigration_desc:0 "$concept_migration_desc$"
- concept_starving:0 "$STANDARD_OF_LIVING_NO_ICON_LEVEL_1$"
- concept_starving_desc:0 "$concept_sol_desc$"
+ concept_starvation:0 "$POP_STARVATION$"
+ concept_starvation_desc:0 "$concept_sol_desc$"
  enforce_ethnostate_decision:0 "Enforce Ethnostate"
- enforce_ethnostate_decision_desc:0 "Discriminated Pops will be [Concept('concept_emigration','Displaced')].\nPops Disallowed from [Concept('concept_migration', '$concept_migrating$')] will be [Concept('concept_starving', 'Purged')]."
+ enforce_ethnostate_decision_desc:0 "All [Concept('concept_incorporated_state', '$concept_incorporated_states$')] begin enforcing strict [GetLawType('law_ethnostate').GetName] [Concept('concept_law', '$concept_laws$')].\n[Concept('concept_discrimination', '$concept_discriminated$')] [Concept('concept_pop', '$concept_pops$')] will be [Concept('concept_emigration','Displaced')].\n[Concept('concept_pop', '$concept_pops$')] Disallowed from [Concept('concept_migration', '$concept_migrating$')] will be [Concept('concept_starvation', 'Purged')]."
  modifier_ethnostate:0 "Foreigners Living in Ethnostate"
