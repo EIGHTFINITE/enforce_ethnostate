@@ -3,5 +3,6 @@
  concept_starvation:0 "$POP_STARVATION$"
  concept_starvation_desc:0 "$concept_sol_desc$"
  enforce_ethnostate_decision:0 "$law_ethnostate$"
- enforce_ethnostate_decision_desc:0 "[Concept('concept_incorporated_state', '$concept_incorporated_states$')]: $law_ethnostate_desc$"
+ enforce_ethnostate_decision_desc:0 "[Concept('concept_incorporated_state', '$concept_incorporated_states$')]: $law_ethnostate_desc$ ($20_YEARS$)"
  modifier_ethnostate:0 "$law_ethnostate$"
+ 20_YEARS:0 "#V 20 yıl#!"
