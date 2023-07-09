@@ -1,0 +1,3793 @@
+﻿enforce_ethnostate_state_illinois = {
+	s:STATE_ILLINOIS = {
+		every_scope_state = {
+			limit = {
+				owner = ROOT
+				is_incorporated = yes
+			}
+			every_scope_pop = {
+				limit = {
+					culture = { culture_is_discriminated_in = ROOT }
+				}
+				move_pop = root.capital
+			}
+		}
+	}
+	every_scope_state = {
+		limit = {
+			owner = ROOT
+			is_capital = yes
+		}
+		every_scope_pop = {
+			limit = {
+				culture = { culture_is_discriminated_in = ROOT }
+			}
+			if = {
+				limit = {
+					exists = c:GER
+					ROOT = c:GER
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GER
+			}
+			if = {
+				limit = {
+					exists = c:GBR
+					ROOT = c:GBR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GBR
+			}
+			if = {
+				limit = {
+					exists = c:SCA
+					ROOT = c:SCA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SCA
+			}
+			if = {
+				limit = {
+					exists = c:RUS
+					ROOT = c:RUS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:RUS
+			}
+			if = {
+				limit = {
+					exists = c:FRA
+					ROOT = c:FRA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FRA
+			}
+			if = {
+				limit = {
+					exists = c:PRU
+					ROOT = c:PRU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PRU
+			}
+			if = {
+				limit = {
+					exists = c:WES
+					ROOT = c:WES
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WES
+			}
+			if = {
+				limit = {
+					exists = c:POM
+					ROOT = c:POM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:POM
+			}
+			if = {
+				limit = {
+					exists = c:AUS
+					ROOT = c:AUS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AUS
+			}
+			if = {
+				limit = {
+					exists = c:USA
+					ROOT = c:USA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:USA
+			}
+			if = {
+				limit = {
+					exists = c:CSA
+					ROOT = c:CSA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CSA
+			}
+			if = {
+				limit = {
+					exists = c:FSA
+					ROOT = c:FSA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FSA
+			}
+			if = {
+				limit = {
+					exists = c:ASA
+					ROOT = c:ASA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ASA
+			}
+			if = {
+				limit = {
+					exists = c:LOU
+					ROOT = c:LOU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LOU
+			}
+			if = {
+				limit = {
+					exists = c:AGJ
+					ROOT = c:AGJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AGJ
+			}
+			if = {
+				limit = {
+					exists = c:AMZ
+					ROOT = c:AMZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AMZ
+			}
+			if = {
+				limit = {
+					exists = c:GRI
+					ROOT = c:GRI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GRI
+			}
+			if = {
+				limit = {
+					exists = c:JAP
+					ROOT = c:JAP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAP
+			}
+			if = {
+				limit = {
+					exists = c:ITA
+					ROOT = c:ITA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ITA
+			}
+			if = {
+				limit = {
+					exists = c:KUK
+					ROOT = c:KUK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KUK
+			}
+			if = {
+				limit = {
+					exists = c:DEN
+					ROOT = c:DEN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DEN
+			}
+			if = {
+				limit = {
+					exists = c:FIN
+					ROOT = c:FIN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FIN
+			}
+			if = {
+				limit = {
+					exists = c:NOR
+					ROOT = c:NOR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NOR
+			}
+			if = {
+				limit = {
+					exists = c:SWE
+					ROOT = c:SWE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SWE
+			}
+			if = {
+				limit = {
+					exists = c:SCN
+					ROOT = c:SCN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SCN
+			}
+			if = {
+				limit = {
+					exists = c:BEL
+					ROOT = c:BEL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BEL
+			}
+			if = {
+				limit = {
+					exists = c:CAT
+					ROOT = c:CAT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAT
+			}
+			if = {
+				limit = {
+					exists = c:FLA
+					ROOT = c:FLA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FLA
+			}
+			if = {
+				limit = {
+					exists = c:IRE
+					ROOT = c:IRE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IRE
+			}
+			if = {
+				limit = {
+					exists = c:NET
+					ROOT = c:NET
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NET
+			}
+			if = {
+				limit = {
+					exists = c:POR
+					ROOT = c:POR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:POR
+			}
+			if = {
+				limit = {
+					exists = c:SCO
+					ROOT = c:SCO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SCO
+			}
+			if = {
+				limit = {
+					exists = c:ENG
+					ROOT = c:ENG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ENG
+			}
+			if = {
+				limit = {
+					exists = c:ULS
+					ROOT = c:ULS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ULS
+			}
+			if = {
+				limit = {
+					exists = c:WLS
+					ROOT = c:WLS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WLS
+			}
+			if = {
+				limit = {
+					exists = c:NAV
+					ROOT = c:NAV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NAV
+			}
+			if = {
+				limit = {
+					exists = c:SPA
+					ROOT = c:SPA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SPA
+			}
+			if = {
+				limit = {
+					exists = c:WLL
+					ROOT = c:WLL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WLL
+			}
+			if = {
+				limit = {
+					exists = c:ANH
+					ROOT = c:ANH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ANH
+			}
+			if = {
+				limit = {
+					exists = c:BAD
+					ROOT = c:BAD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BAD
+			}
+			if = {
+				limit = {
+					exists = c:BAV
+					ROOT = c:BAV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BAV
+			}
+			if = {
+				limit = {
+					exists = c:BRA
+					ROOT = c:BRA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRA
+			}
+			if = {
+				limit = {
+					exists = c:BRE
+					ROOT = c:BRE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRE
+			}
+			if = {
+				limit = {
+					exists = c:DZG
+					ROOT = c:DZG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DZG
+			}
+			if = {
+				limit = {
+					exists = c:FRM
+					ROOT = c:FRM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FRM
+			}
+			if = {
+				limit = {
+					exists = c:HAM
+					ROOT = c:HAM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HAM
+			}
+			if = {
+				limit = {
+					exists = c:HAN
+					ROOT = c:HAN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HAN
+			}
+			if = {
+				limit = {
+					exists = c:HES
+					ROOT = c:HES
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HES
+			}
+			if = {
+				limit = {
+					exists = c:HOL
+					ROOT = c:HOL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HOL
+			}
+			if = {
+				limit = {
+					exists = c:LUB
+					ROOT = c:LUB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LUB
+			}
+			if = {
+				limit = {
+					exists = c:LUX
+					ROOT = c:LUX
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LUX
+			}
+			if = {
+				limit = {
+					exists = c:MEC
+					ROOT = c:MEC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MEC
+			}
+			if = {
+				limit = {
+					exists = c:NAS
+					ROOT = c:NAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NAS
+			}
+			if = {
+				limit = {
+					exists = c:OLD
+					ROOT = c:OLD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OLD
+			}
+			if = {
+				limit = {
+					exists = c:SAX
+					ROOT = c:SAX
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAX
+			}
+			if = {
+				limit = {
+					exists = c:WUR
+					ROOT = c:WUR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WUR
+			}
+			if = {
+				limit = {
+					exists = c:LOM
+					ROOT = c:LOM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LOM
+			}
+			if = {
+				limit = {
+					exists = c:LUC
+					ROOT = c:LUC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LUC
+			}
+			if = {
+				limit = {
+					exists = c:MOD
+					ROOT = c:MOD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MOD
+			}
+			if = {
+				limit = {
+					exists = c:PAP
+					ROOT = c:PAP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PAP
+			}
+			if = {
+				limit = {
+					exists = c:PAR
+					ROOT = c:PAR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PAR
+			}
+			if = {
+				limit = {
+					exists = c:PRA
+					ROOT = c:PRA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PRA
+			}
+			if = {
+				limit = {
+					exists = c:SAR
+					ROOT = c:SAR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAR
+			}
+			if = {
+				limit = {
+					exists = c:SIC
+					ROOT = c:SIC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIC
+			}
+			if = {
+				limit = {
+					exists = c:TRE
+					ROOT = c:TRE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRE
+			}
+			if = {
+				limit = {
+					exists = c:TUS
+					ROOT = c:TUS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TUS
+			}
+			if = {
+				limit = {
+					exists = c:VEN
+					ROOT = c:VEN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:VEN
+			}
+			if = {
+				limit = {
+					exists = c:BOH
+					ROOT = c:BOH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BOH
+			}
+			if = {
+				limit = {
+					exists = c:KRA
+					ROOT = c:KRA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KRA
+			}
+			if = {
+				limit = {
+					exists = c:CRI
+					ROOT = c:CRI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CRI
+			}
+			if = {
+				limit = {
+					exists = c:EST
+					ROOT = c:EST
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:EST
+			}
+			if = {
+				limit = {
+					exists = c:HUN
+					ROOT = c:HUN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HUN
+			}
+			if = {
+				limit = {
+					exists = c:LIT
+					ROOT = c:LIT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LIT
+			}
+			if = {
+				limit = {
+					exists = c:LAT
+					ROOT = c:LAT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LAT
+			}
+			if = {
+				limit = {
+					exists = c:POL
+					ROOT = c:POL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:POL
+			}
+			if = {
+				limit = {
+					exists = c:GAL
+					ROOT = c:GAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GAL
+			}
+			if = {
+				limit = {
+					exists = c:SLV
+					ROOT = c:SLV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SLV
+			}
+			if = {
+				limit = {
+					exists = c:SWI
+					ROOT = c:SWI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SWI
+			}
+			if = {
+				limit = {
+					exists = c:TRS
+					ROOT = c:TRS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRS
+			}
+			if = {
+				limit = {
+					exists = c:UKR
+					ROOT = c:UKR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UKR
+			}
+			if = {
+				limit = {
+					exists = c:CZH
+					ROOT = c:CZH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CZH
+			}
+			if = {
+				limit = {
+					exists = c:ALB
+					ROOT = c:ALB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ALB
+			}
+			if = {
+				limit = {
+					exists = c:BOS
+					ROOT = c:BOS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BOS
+			}
+			if = {
+				limit = {
+					exists = c:BUL
+					ROOT = c:BUL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BUL
+			}
+			if = {
+				limit = {
+					exists = c:CRE
+					ROOT = c:CRE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CRE
+			}
+			if = {
+				limit = {
+					exists = c:CRO
+					ROOT = c:CRO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CRO
+			}
+			if = {
+				limit = {
+					exists = c:CYP
+					ROOT = c:CYP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CYP
+			}
+			if = {
+				limit = {
+					exists = c:GRE
+					ROOT = c:GRE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GRE
+			}
+			if = {
+				limit = {
+					exists = c:ION
+					ROOT = c:ION
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ION
+			}
+			if = {
+				limit = {
+					exists = c:MOL
+					ROOT = c:MOL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MOL
+			}
+			if = {
+				limit = {
+					exists = c:MON
+					ROOT = c:MON
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MON
+			}
+			if = {
+				limit = {
+					exists = c:ROM
+					ROOT = c:ROM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ROM
+			}
+			if = {
+				limit = {
+					exists = c:SER
+					ROOT = c:SER
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SER
+			}
+			if = {
+				limit = {
+					exists = c:SLO
+					ROOT = c:SLO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SLO
+			}
+			if = {
+				limit = {
+					exists = c:TUR
+					ROOT = c:TUR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TUR
+			}
+			if = {
+				limit = {
+					exists = c:WAL
+					ROOT = c:WAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WAL
+			}
+			if = {
+				limit = {
+					exists = c:YUG
+					ROOT = c:YUG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YUG
+			}
+			if = {
+				limit = {
+					exists = c:ABU
+					ROOT = c:ABU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ABU
+			}
+			if = {
+				limit = {
+					exists = c:AFG
+					ROOT = c:AFG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AFG
+			}
+			if = {
+				limit = {
+					exists = c:ARM
+					ROOT = c:ARM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ARM
+			}
+			if = {
+				limit = {
+					exists = c:DAG
+					ROOT = c:DAG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DAG
+			}
+			if = {
+				limit = {
+					exists = c:AZB
+					ROOT = c:AZB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AZB
+			}
+			if = {
+				limit = {
+					exists = c:BUK
+					ROOT = c:BUK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BUK
+			}
+			if = {
+				limit = {
+					exists = c:GEO
+					ROOT = c:GEO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GEO
+			}
+			if = {
+				limit = {
+					exists = c:HDJ
+					ROOT = c:HDJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HDJ
+			}
+			if = {
+				limit = {
+					exists = c:IRQ
+					ROOT = c:IRQ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IRQ
+			}
+			if = {
+				limit = {
+					exists = c:KHI
+					ROOT = c:KHI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KHI
+			}
+			if = {
+				limit = {
+					exists = c:KOK
+					ROOT = c:KOK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KOK
+			}
+			if = {
+				limit = {
+					exists = c:KAZ
+					ROOT = c:KAZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KAZ
+			}
+			if = {
+				limit = {
+					exists = c:MUG
+					ROOT = c:MUG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MUG
+			}
+			if = {
+				limit = {
+					exists = c:NEJ
+					ROOT = c:NEJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NEJ
+			}
+			if = {
+				limit = {
+					exists = c:OMA
+					ROOT = c:OMA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OMA
+			}
+			if = {
+				limit = {
+					exists = c:PER
+					ROOT = c:PER
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PER
+			}
+			if = {
+				limit = {
+					exists = c:JAB
+					ROOT = c:JAB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAB
+			}
+			if = {
+				limit = {
+					exists = c:YEM
+					ROOT = c:YEM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YEM
+			}
+			if = {
+				limit = {
+					exists = c:MAH
+					ROOT = c:MAH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MAH
+			}
+			if = {
+				limit = {
+					exists = c:KAT
+					ROOT = c:KAT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KAT
+			}
+			if = {
+				limit = {
+					exists = c:ZAI
+					ROOT = c:ZAI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ZAI
+			}
+			if = {
+				limit = {
+					exists = c:LAH
+					ROOT = c:LAH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LAH
+			}
+			if = {
+				limit = {
+					exists = c:BHN
+					ROOT = c:BHN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BHN
+			}
+			if = {
+				limit = {
+					exists = c:HND
+					ROOT = c:HND
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HND
+			}
+			if = {
+				limit = {
+					exists = c:AWA
+					ROOT = c:AWA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AWA
+			}
+			if = {
+				limit = {
+					exists = c:BAS
+					ROOT = c:BAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BAS
+			}
+			if = {
+				limit = {
+					exists = c:BER
+					ROOT = c:BER
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BER
+			}
+			if = {
+				limit = {
+					exists = c:BHO
+					ROOT = c:BHO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BHO
+			}
+			if = {
+				limit = {
+					exists = c:BIK
+					ROOT = c:BIK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BIK
+			}
+			if = {
+				limit = {
+					exists = c:BUN
+					ROOT = c:BUN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BUN
+			}
+			if = {
+				limit = {
+					exists = c:GWA
+					ROOT = c:GWA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GWA
+			}
+			if = {
+				limit = {
+					exists = c:HYD
+					ROOT = c:HYD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HYD
+			}
+			if = {
+				limit = {
+					exists = c:BGL
+					ROOT = c:BGL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BGL
+			}
+			if = {
+				limit = {
+					exists = c:IND
+					ROOT = c:IND
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IND
+			}
+			if = {
+				limit = {
+					exists = c:JAI
+					ROOT = c:JAI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAI
+			}
+			if = {
+				limit = {
+					exists = c:JAS
+					ROOT = c:JAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAS
+			}
+			if = {
+				limit = {
+					exists = c:JOD
+					ROOT = c:JOD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JOD
+			}
+			if = {
+				limit = {
+					exists = c:KAL
+					ROOT = c:KAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KAL
+			}
+			if = {
+				limit = {
+					exists = c:KAS
+					ROOT = c:KAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KAS
+			}
+			if = {
+				limit = {
+					exists = c:KUT
+					ROOT = c:KUT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KUT
+			}
+			if = {
+				limit = {
+					exists = c:LAD
+					ROOT = c:LAD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LAD
+			}
+			if = {
+				limit = {
+					exists = c:MAK
+					ROOT = c:MAK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MAK
+			}
+			if = {
+				limit = {
+					exists = c:MEW
+					ROOT = c:MEW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MEW
+			}
+			if = {
+				limit = {
+					exists = c:MYS
+					ROOT = c:MYS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MYS
+			}
+			if = {
+				limit = {
+					exists = c:NAG
+					ROOT = c:NAG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NAG
+			}
+			if = {
+				limit = {
+					exists = c:NEP
+					ROOT = c:NEP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NEP
+			}
+			if = {
+				limit = {
+					exists = c:ORI
+					ROOT = c:ORI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ORI
+			}
+			if = {
+				limit = {
+					exists = c:PAN
+					ROOT = c:PAN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PAN
+			}
+			if = {
+				limit = {
+					exists = c:SIK
+					ROOT = c:SIK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIK
+			}
+			if = {
+				limit = {
+					exists = c:SIN
+					ROOT = c:SIN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIN
+			}
+			if = {
+				limit = {
+					exists = c:TRA
+					ROOT = c:TRA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRA
+			}
+			if = {
+				limit = {
+					exists = c:ACE
+					ROOT = c:ACE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ACE
+			}
+			if = {
+				limit = {
+					exists = c:BAL
+					ROOT = c:BAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BAL
+			}
+			if = {
+				limit = {
+					exists = c:BHU
+					ROOT = c:BHU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BHU
+			}
+			if = {
+				limit = {
+					exists = c:LAN
+					ROOT = c:LAN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LAN
+			}
+			if = {
+				limit = {
+					exists = c:BRU
+					ROOT = c:BRU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRU
+			}
+			if = {
+				limit = {
+					exists = c:BUR
+					ROOT = c:BUR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BUR
+			}
+			if = {
+				limit = {
+					exists = c:CAM
+					ROOT = c:CAM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAM
+			}
+			if = {
+				limit = {
+					exists = c:CHI
+					ROOT = c:CHI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHI
+			}
+			if = {
+				limit = {
+					exists = c:DAI
+					ROOT = c:DAI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DAI
+			}
+			if = {
+				limit = {
+					exists = c:JAV
+					ROOT = c:JAV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAV
+			}
+			if = {
+				limit = {
+					exists = c:KOR
+					ROOT = c:KOR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KOR
+			}
+			if = {
+				limit = {
+					exists = c:LAO
+					ROOT = c:LAO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LAO
+			}
+			if = {
+				limit = {
+					exists = c:LUA
+					ROOT = c:LUA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LUA
+			}
+			if = {
+				limit = {
+					exists = c:CHP
+					ROOT = c:CHP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHP
+			}
+			if = {
+				limit = {
+					exists = c:VIE
+					ROOT = c:VIE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:VIE
+			}
+			if = {
+				limit = {
+					exists = c:JOH
+					ROOT = c:JOH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JOH
+			}
+			if = {
+				limit = {
+					exists = c:SIA
+					ROOT = c:SIA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIA
+			}
+			if = {
+				limit = {
+					exists = c:CMI
+					ROOT = c:CMI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CMI
+			}
+			if = {
+				limit = {
+					exists = c:TIB
+					ROOT = c:TIB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TIB
+			}
+			if = {
+				limit = {
+					exists = c:MGL
+					ROOT = c:MGL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MGL
+			}
+			if = {
+				limit = {
+					exists = c:XIN
+					ROOT = c:XIN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:XIN
+			}
+			if = {
+				limit = {
+					exists = c:PHI
+					ROOT = c:PHI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PHI
+			}
+			if = {
+				limit = {
+					exists = c:MCH
+					ROOT = c:MCH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MCH
+			}
+			if = {
+				limit = {
+					exists = c:CAL
+					ROOT = c:CAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAL
+			}
+			if = {
+				limit = {
+					exists = c:CAN
+					ROOT = c:CAN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAN
+			}
+			if = {
+				limit = {
+					exists = c:CHE
+					ROOT = c:CHE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHE
+			}
+			if = {
+				limit = {
+					exists = c:COL
+					ROOT = c:COL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:COL
+			}
+			if = {
+				limit = {
+					exists = c:COS
+					ROOT = c:COS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:COS
+			}
+			if = {
+				limit = {
+					exists = c:CUB
+					ROOT = c:CUB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CUB
+			}
+			if = {
+				limit = {
+					exists = c:DES
+					ROOT = c:DES
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DES
+			}
+			if = {
+				limit = {
+					exists = c:DOM
+					ROOT = c:DOM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DOM
+			}
+			if = {
+				limit = {
+					exists = c:ELS
+					ROOT = c:ELS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ELS
+			}
+			if = {
+				limit = {
+					exists = c:GUA
+					ROOT = c:GUA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GUA
+			}
+			if = {
+				limit = {
+					exists = c:ALT
+					ROOT = c:ALT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ALT
+			}
+			if = {
+				limit = {
+					exists = c:HAI
+					ROOT = c:HAI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HAI
+			}
+			if = {
+				limit = {
+					exists = c:MEX
+					ROOT = c:MEX
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MEX
+			}
+			if = {
+				limit = {
+					exists = c:MTC
+					ROOT = c:MTC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MTC
+			}
+			if = {
+				limit = {
+					exists = c:HON
+					ROOT = c:HON
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HON
+			}
+			if = {
+				limit = {
+					exists = c:NEN
+					ROOT = c:NEN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NEN
+			}
+			if = {
+				limit = {
+					exists = c:NEW
+					ROOT = c:NEW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NEW
+			}
+			if = {
+				limit = {
+					exists = c:NIC
+					ROOT = c:NIC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NIC
+			}
+			if = {
+				limit = {
+					exists = c:PNM
+					ROOT = c:PNM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PNM
+			}
+			if = {
+				limit = {
+					exists = c:QUE
+					ROOT = c:QUE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:QUE
+			}
+			if = {
+				limit = {
+					exists = c:HBC
+					ROOT = c:HBC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HBC
+			}
+			if = {
+				limit = {
+					exists = c:ONT
+					ROOT = c:ONT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ONT
+			}
+			if = {
+				limit = {
+					exists = c:NBS
+					ROOT = c:NBS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NBS
+			}
+			if = {
+				limit = {
+					exists = c:NVS
+					ROOT = c:NVS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NVS
+			}
+			if = {
+				limit = {
+					exists = c:TEX
+					ROOT = c:TEX
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TEX
+			}
+			if = {
+				limit = {
+					exists = c:UCA
+					ROOT = c:UCA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UCA
+			}
+			if = {
+				limit = {
+					exists = c:ARG
+					ROOT = c:ARG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ARG
+			}
+			if = {
+				limit = {
+					exists = c:BOL
+					ROOT = c:BOL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BOL
+			}
+			if = {
+				limit = {
+					exists = c:BRZ
+					ROOT = c:BRZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRZ
+			}
+			if = {
+				limit = {
+					exists = c:CHL
+					ROOT = c:CHL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHL
+			}
+			if = {
+				limit = {
+					exists = c:CLM
+					ROOT = c:CLM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CLM
+			}
+			if = {
+				limit = {
+					exists = c:ECU
+					ROOT = c:ECU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ECU
+			}
+			if = {
+				limit = {
+					exists = c:PEU
+					ROOT = c:PEU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PEU
+			}
+			if = {
+				limit = {
+					exists = c:PRG
+					ROOT = c:PRG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PRG
+			}
+			if = {
+				limit = {
+					exists = c:URU
+					ROOT = c:URU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:URU
+			}
+			if = {
+				limit = {
+					exists = c:VNZ
+					ROOT = c:VNZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:VNZ
+			}
+			if = {
+				limit = {
+					exists = c:ISR
+					ROOT = c:ISR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ISR
+			}
+			if = {
+				limit = {
+					exists = c:BYZ
+					ROOT = c:BYZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BYZ
+			}
+			if = {
+				limit = {
+					exists = c:ICL
+					ROOT = c:ICL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ICL
+			}
+			if = {
+				limit = {
+					exists = c:ARA
+					ROOT = c:ARA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ARA
+			}
+			if = {
+				limit = {
+					exists = c:UBD
+					ROOT = c:UBD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UBD
+			}
+			if = {
+				limit = {
+					exists = c:BYE
+					ROOT = c:BYE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BYE
+			}
+			if = {
+				limit = {
+					exists = c:PLC
+					ROOT = c:PLC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PLC
+			}
+			if = {
+				limit = {
+					exists = c:GCO
+					ROOT = c:GCO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GCO
+			}
+			if = {
+				limit = {
+					exists = c:JAN
+					ROOT = c:JAN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAN
+			}
+			if = {
+				limit = {
+					exists = c:BIC
+					ROOT = c:BIC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BIC
+			}
+			if = {
+				limit = {
+					exists = c:BRI
+					ROOT = c:BRI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRI
+			}
+			if = {
+				limit = {
+					exists = c:PAT
+					ROOT = c:PAT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PAT
+			}
+			if = {
+				limit = {
+					exists = c:THL
+					ROOT = c:THL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:THL
+			}
+			if = {
+				limit = {
+					exists = c:SLK
+					ROOT = c:SLK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SLK
+			}
+			if = {
+				limit = {
+					exists = c:TNG
+					ROOT = c:TNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TNG
+			}
+			if = {
+				limit = {
+					exists = c:WIN
+					ROOT = c:WIN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WIN
+			}
+			if = {
+				limit = {
+					exists = c:MAY
+					ROOT = c:MAY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MAY
+			}
+			if = {
+				limit = {
+					exists = c:IBE
+					ROOT = c:IBE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IBE
+			}
+			if = {
+				limit = {
+					exists = c:ORG
+					ROOT = c:ORG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ORG
+			}
+			if = {
+				limit = {
+					exists = c:COM
+					ROOT = c:COM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:COM
+			}
+			if = {
+				limit = {
+					exists = c:SEQ
+					ROOT = c:SEQ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SEQ
+			}
+			if = {
+				limit = {
+					exists = c:DKT
+					ROOT = c:DKT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DKT
+			}
+			if = {
+				limit = {
+					exists = c:LKT
+					ROOT = c:LKT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LKT
+			}
+			if = {
+				limit = {
+					exists = c:NVJ
+					ROOT = c:NVJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NVJ
+			}
+			if = {
+				limit = {
+					exists = c:ARP
+					ROOT = c:ARP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ARP
+			}
+			if = {
+				limit = {
+					exists = c:NZP
+					ROOT = c:NZP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NZP
+			}
+			if = {
+				limit = {
+					exists = c:ABS
+					ROOT = c:ABS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ABS
+			}
+			if = {
+				limit = {
+					exists = c:IRC
+					ROOT = c:IRC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IRC
+			}
+			if = {
+				limit = {
+					exists = c:JAM
+					ROOT = c:JAM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JAM
+			}
+			if = {
+				limit = {
+					exists = c:BAH
+					ROOT = c:BAH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BAH
+			}
+			if = {
+				limit = {
+					exists = c:PCO
+					ROOT = c:PCO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PCO
+			}
+			if = {
+				limit = {
+					exists = c:MKT
+					ROOT = c:MKT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MKT
+			}
+			if = {
+				limit = {
+					exists = c:NAH
+					ROOT = c:NAH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NAH
+			}
+			if = {
+				limit = {
+					exists = c:GRN
+					ROOT = c:GRN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GRN
+			}
+			if = {
+				limit = {
+					exists = c:ANL
+					ROOT = c:ANL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ANL
+			}
+			if = {
+				limit = {
+					exists = c:CAS
+					ROOT = c:CAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAS
+			}
+			if = {
+				limit = {
+					exists = c:SMI
+					ROOT = c:SMI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SMI
+			}
+			if = {
+				limit = {
+					exists = c:MLT
+					ROOT = c:MLT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MLT
+			}
+			if = {
+				limit = {
+					exists = c:PRM
+					ROOT = c:PRM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PRM
+			}
+			if = {
+				limit = {
+					exists = c:HZJ
+					ROOT = c:HZJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HZJ
+			}
+			if = {
+				limit = {
+					exists = c:TRC
+					ROOT = c:TRC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRC
+			}
+			if = {
+				limit = {
+					exists = c:SIB
+					ROOT = c:SIB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIB
+			}
+			if = {
+				limit = {
+					exists = c:YAK
+					ROOT = c:YAK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YAK
+			}
+			if = {
+				limit = {
+					exists = c:ASM
+					ROOT = c:ASM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ASM
+			}
+			if = {
+				limit = {
+					exists = c:MNP
+					ROOT = c:MNP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MNP
+			}
+			if = {
+				limit = {
+					exists = c:TOB
+					ROOT = c:TOB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TOB
+			}
+			if = {
+				limit = {
+					exists = c:KLT
+					ROOT = c:KLT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KLT
+			}
+			if = {
+				limit = {
+					exists = c:HTH
+					ROOT = c:HTH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HTH
+			}
+			if = {
+				limit = {
+					exists = c:KRN
+					ROOT = c:KRN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KRN
+			}
+			if = {
+				limit = {
+					exists = c:KHM
+					ROOT = c:KHM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KHM
+			}
+			if = {
+				limit = {
+					exists = c:KHN
+					ROOT = c:KHN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KHN
+			}
+			if = {
+				limit = {
+					exists = c:AIN
+					ROOT = c:AIN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AIN
+			}
+			if = {
+				limit = {
+					exists = c:EZO
+					ROOT = c:EZO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:EZO
+			}
+			if = {
+				limit = {
+					exists = c:QIA
+					ROOT = c:QIA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:QIA
+			}
+			if = {
+				limit = {
+					exists = c:FRS
+					ROOT = c:FRS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FRS
+			}
+			if = {
+				limit = {
+					exists = c:YUN
+					ROOT = c:YUN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YUN
+			}
+			if = {
+				limit = {
+					exists = c:YUE
+					ROOT = c:YUE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YUE
+			}
+			if = {
+				limit = {
+					exists = c:OAX
+					ROOT = c:OAX
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OAX
+			}
+			if = {
+				limit = {
+					exists = c:MCO
+					ROOT = c:MCO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MCO
+			}
+			if = {
+				limit = {
+					exists = c:TWT
+					ROOT = c:TWT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TWT
+			}
+			if = {
+				limit = {
+					exists = c:AYM
+					ROOT = c:AYM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AYM
+			}
+			if = {
+				limit = {
+					exists = c:WYU
+					ROOT = c:WYU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WYU
+			}
+			if = {
+				limit = {
+					exists = c:TPI
+					ROOT = c:TPI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TPI
+			}
+			if = {
+				limit = {
+					exists = c:PUE
+					ROOT = c:PUE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PUE
+			}
+			if = {
+				limit = {
+					exists = c:NNV
+					ROOT = c:NNV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NNV
+			}
+			if = {
+				limit = {
+					exists = c:NVL
+					ROOT = c:NVL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NVL
+			}
+			if = {
+				limit = {
+					exists = c:ATB
+					ROOT = c:ATB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ATB
+			}
+			if = {
+				limit = {
+					exists = c:CSC
+					ROOT = c:CSC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CSC
+			}
+			if = {
+				limit = {
+					exists = c:IRO
+					ROOT = c:IRO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IRO
+			}
+			if = {
+				limit = {
+					exists = c:CTF
+					ROOT = c:CTF
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CTF
+			}
+			if = {
+				limit = {
+					exists = c:MSC
+					ROOT = c:MSC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MSC
+			}
+			if = {
+				limit = {
+					exists = c:UTE
+					ROOT = c:UTE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UTE
+			}
+			if = {
+				limit = {
+					exists = c:PWN
+					ROOT = c:PWN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PWN
+			}
+			if = {
+				limit = {
+					exists = c:APC
+					ROOT = c:APC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:APC
+			}
+			if = {
+				limit = {
+					exists = c:BLF
+					ROOT = c:BLF
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BLF
+			}
+			if = {
+				limit = {
+					exists = c:CCM
+					ROOT = c:CCM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CCM
+			}
+			if = {
+				limit = {
+					exists = c:ORN
+					ROOT = c:ORN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ORN
+			}
+			if = {
+				limit = {
+					exists = c:MUI
+					ROOT = c:MUI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MUI
+			}
+			if = {
+				limit = {
+					exists = c:SRB
+					ROOT = c:SRB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SRB
+			}
+			if = {
+				limit = {
+					exists = c:YUC
+					ROOT = c:YUC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YUC
+			}
+			if = {
+				limit = {
+					exists = c:RIO
+					ROOT = c:RIO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:RIO
+			}
+			if = {
+				limit = {
+					exists = c:PNI
+					ROOT = c:PNI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PNI
+			}
+			if = {
+				limit = {
+					exists = c:CEY
+					ROOT = c:CEY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CEY
+			}
+			if = {
+				limit = {
+					exists = c:BLH
+					ROOT = c:BLH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BLH
+			}
+			if = {
+				limit = {
+					exists = c:NGF
+					ROOT = c:NGF
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NGF
+			}
+			if = {
+				limit = {
+					exists = c:SGF
+					ROOT = c:SGF
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SGF
+			}
+			if = {
+				limit = {
+					exists = c:OCC
+					ROOT = c:OCC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OCC
+			}
+			if = {
+				limit = {
+					exists = c:TUV
+					ROOT = c:TUV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TUV
+			}
+			if = {
+				limit = {
+					exists = c:COR
+					ROOT = c:COR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:COR
+			}
+			if = {
+				limit = {
+					exists = c:TNS
+					ROOT = c:TNS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TNS
+			}
+			if = {
+				limit = {
+					exists = c:FER
+					ROOT = c:FER
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FER
+			}
+			if = {
+				limit = {
+					exists = c:IUS
+					ROOT = c:IUS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IUS
+			}
+			if = {
+				limit = {
+					exists = c:NCA
+					ROOT = c:NCA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NCA
+			}
+			if = {
+				limit = {
+					exists = c:DON
+					ROOT = c:DON
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DON
+			}
+			if = {
+				limit = {
+					exists = c:SYR
+					ROOT = c:SYR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SYR
+			}
+			if = {
+				limit = {
+					exists = c:EOT
+					ROOT = c:EOT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:EOT
+			}
+			if = {
+				limit = {
+					exists = c:LEB
+					ROOT = c:LEB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LEB
+			}
+			if = {
+				limit = {
+					exists = c:HNA
+					ROOT = c:HNA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HNA
+			}
+			if = {
+				limit = {
+					exists = c:AHU
+					ROOT = c:AHU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AHU
+			}
+			if = {
+				limit = {
+					exists = c:ZHI
+					ROOT = c:ZHI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ZHI
+			}
+			if = {
+				limit = {
+					exists = c:SHN
+					ROOT = c:SHN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SHN
+			}
+			if = {
+				limit = {
+					exists = c:GUI
+					ROOT = c:GUI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GUI
+			}
+			if = {
+				limit = {
+					exists = c:GNG
+					ROOT = c:GNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GNG
+			}
+			if = {
+				limit = {
+					exists = c:SIH
+					ROOT = c:SIH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIH
+			}
+			if = {
+				limit = {
+					exists = c:SHA
+					ROOT = c:SHA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SHA
+			}
+			if = {
+				limit = {
+					exists = c:XIB
+					ROOT = c:XIB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:XIB
+			}
+			if = {
+				limit = {
+					exists = c:TPG
+					ROOT = c:TPG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TPG
+			}
+			if = {
+				limit = {
+					exists = c:GNI
+					ROOT = c:GNI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GNI
+			}
+			if = {
+				limit = {
+					exists = c:KUR
+					ROOT = c:KUR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KUR
+			}
+			if = {
+				limit = {
+					exists = c:GLI
+					ROOT = c:GLI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GLI
+			}
+			if = {
+				limit = {
+					exists = c:PAL
+					ROOT = c:PAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PAL
+			}
+			if = {
+				limit = {
+					exists = c:TRH
+					ROOT = c:TRH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRH
+			}
+			if = {
+				limit = {
+					exists = c:COB
+					ROOT = c:COB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:COB
+			}
+			if = {
+				limit = {
+					exists = c:MEI
+					ROOT = c:MEI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MEI
+			}
+			if = {
+				limit = {
+					exists = c:WEI
+					ROOT = c:WEI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WEI
+			}
+			if = {
+				limit = {
+					exists = c:SCW
+					ROOT = c:SCW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SCW
+			}
+			if = {
+				limit = {
+					exists = c:HEK
+					ROOT = c:HEK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HEK
+			}
+			if = {
+				limit = {
+					exists = c:LIP
+					ROOT = c:LIP
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LIP
+			}
+			if = {
+				limit = {
+					exists = c:SCM
+					ROOT = c:SCM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SCM
+			}
+			if = {
+				limit = {
+					exists = c:MST
+					ROOT = c:MST
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MST
+			}
+			if = {
+				limit = {
+					exists = c:HOH
+					ROOT = c:HOH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HOH
+			}
+			if = {
+				limit = {
+					exists = c:WLD
+					ROOT = c:WLD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WLD
+			}
+			if = {
+				limit = {
+					exists = c:BHT
+					ROOT = c:BHT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BHT
+			}
+			if = {
+				limit = {
+					exists = c:UOM
+					ROOT = c:UOM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UOM
+			}
+			if = {
+				limit = {
+					exists = c:CIR
+					ROOT = c:CIR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CIR
+			}
+			if = {
+				limit = {
+					exists = c:CHC
+					ROOT = c:CHC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHC
+			}
+			if = {
+				limit = {
+					exists = c:ASS
+					ROOT = c:ASS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ASS
+			}
+			if = {
+				limit = {
+					exists = c:KLM
+					ROOT = c:KLM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KLM
+			}
+			if = {
+				limit = {
+					exists = c:SCH
+					ROOT = c:SCH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SCH
+			}
+			if = {
+				limit = {
+					exists = c:KZH
+					ROOT = c:KZH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KZH
+			}
+			if = {
+				limit = {
+					exists = c:UZH
+					ROOT = c:UZH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UZH
+			}
+			if = {
+				limit = {
+					exists = c:OZH
+					ROOT = c:OZH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OZH
+			}
+			if = {
+				limit = {
+					exists = c:CAU
+					ROOT = c:CAU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAU
+			}
+			if = {
+				limit = {
+					exists = c:SAV
+					ROOT = c:SAV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAV
+			}
+			if = {
+				limit = {
+					exists = c:RHE
+					ROOT = c:RHE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:RHE
+			}
+			if = {
+				limit = {
+					exists = c:PRC
+					ROOT = c:PRC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PRC
+			}
+			if = {
+				limit = {
+					exists = c:ALD
+					ROOT = c:ALD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ALD
+			}
+			if = {
+				limit = {
+					exists = c:CON
+					ROOT = c:CON
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CON
+			}
+			if = {
+				limit = {
+					exists = c:EGY
+					ROOT = c:EGY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:EGY
+			}
+			if = {
+				limit = {
+					exists = c:ETH
+					ROOT = c:ETH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ETH
+			}
+			if = {
+				limit = {
+					exists = c:MAD
+					ROOT = c:MAD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MAD
+			}
+			if = {
+				limit = {
+					exists = c:MAS
+					ROOT = c:MAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MAS
+			}
+			if = {
+				limit = {
+					exists = c:LIB
+					ROOT = c:LIB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LIB
+			}
+			if = {
+				limit = {
+					exists = c:MOR
+					ROOT = c:MOR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MOR
+			}
+			if = {
+				limit = {
+					exists = c:NAL
+					ROOT = c:NAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NAL
+			}
+			if = {
+				limit = {
+					exists = c:ORA
+					ROOT = c:ORA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ORA
+			}
+			if = {
+				limit = {
+					exists = c:SAF
+					ROOT = c:SAF
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAF
+			}
+			if = {
+				limit = {
+					exists = c:SOK
+					ROOT = c:SOK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SOK
+			}
+			if = {
+				limit = {
+					exists = c:TRI
+					ROOT = c:TRI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRI
+			}
+			if = {
+				limit = {
+					exists = c:TRN
+					ROOT = c:TRN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRN
+			}
+			if = {
+				limit = {
+					exists = c:TUN
+					ROOT = c:TUN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TUN
+			}
+			if = {
+				limit = {
+					exists = c:ZAN
+					ROOT = c:ZAN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ZAN
+			}
+			if = {
+				limit = {
+					exists = c:ZUL
+					ROOT = c:ZUL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ZUL
+			}
+			if = {
+				limit = {
+					exists = c:SIL
+					ROOT = c:SIL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SIL
+			}
+			if = {
+				limit = {
+					exists = c:MTB
+					ROOT = c:MTB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MTB
+			}
+			if = {
+				limit = {
+					exists = c:MSH
+					ROOT = c:MSH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MSH
+			}
+			if = {
+				limit = {
+					exists = c:MNC
+					ROOT = c:MNC
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MNC
+			}
+			if = {
+				limit = {
+					exists = c:MSK
+					ROOT = c:MSK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MSK
+			}
+			if = {
+				limit = {
+					exists = c:NAM
+					ROOT = c:NAM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NAM
+			}
+			if = {
+				limit = {
+					exists = c:HRO
+					ROOT = c:HRO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HRO
+			}
+			if = {
+				limit = {
+					exists = c:LZO
+					ROOT = c:LZO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LZO
+			}
+			if = {
+				limit = {
+					exists = c:TSW
+					ROOT = c:TSW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TSW
+			}
+			if = {
+				limit = {
+					exists = c:WBL
+					ROOT = c:WBL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WBL
+			}
+			if = {
+				limit = {
+					exists = c:KZM
+					ROOT = c:KZM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KZM
+			}
+			if = {
+				limit = {
+					exists = c:BMB
+					ROOT = c:BMB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BMB
+			}
+			if = {
+				limit = {
+					exists = c:KSN
+					ROOT = c:KSN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KSN
+			}
+			if = {
+				limit = {
+					exists = c:OVM
+					ROOT = c:OVM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OVM
+			}
+			if = {
+				limit = {
+					exists = c:CHK
+					ROOT = c:CHK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHK
+			}
+			if = {
+				limit = {
+					exists = c:LND
+					ROOT = c:LND
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LND
+			}
+			if = {
+				limit = {
+					exists = c:KBA
+					ROOT = c:KBA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KBA
+			}
+			if = {
+				limit = {
+					exists = c:MNB
+					ROOT = c:MNB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MNB
+			}
+			if = {
+				limit = {
+					exists = c:NYM
+					ROOT = c:NYM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NYM
+			}
+			if = {
+				limit = {
+					exists = c:HHE
+					ROOT = c:HHE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HHE
+			}
+			if = {
+				limit = {
+					exists = c:FTJ
+					ROOT = c:FTJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FTJ
+			}
+			if = {
+				limit = {
+					exists = c:BUG
+					ROOT = c:BUG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BUG
+			}
+			if = {
+				limit = {
+					exists = c:ASH
+					ROOT = c:ASH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ASH
+			}
+			if = {
+				limit = {
+					exists = c:YKA
+					ROOT = c:YKA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YKA
+			}
+			if = {
+				limit = {
+					exists = c:KON
+					ROOT = c:KON
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KON
+			}
+			if = {
+				limit = {
+					exists = c:LNG
+					ROOT = c:LNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LNG
+			}
+			if = {
+				limit = {
+					exists = c:FNG
+					ROOT = c:FNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FNG
+			}
+			if = {
+				limit = {
+					exists = c:BNG
+					ROOT = c:BNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BNG
+			}
+			if = {
+				limit = {
+					exists = c:BST
+					ROOT = c:BST
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BST
+			}
+			if = {
+				limit = {
+					exists = c:TKE
+					ROOT = c:TKE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TKE
+			}
+			if = {
+				limit = {
+					exists = c:BOB
+					ROOT = c:BOB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BOB
+			}
+			if = {
+				limit = {
+					exists = c:LGA
+					ROOT = c:LGA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LGA
+			}
+			if = {
+				limit = {
+					exists = c:HMB
+					ROOT = c:HMB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HMB
+			}
+			if = {
+				limit = {
+					exists = c:LBA
+					ROOT = c:LBA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LBA
+			}
+			if = {
+				limit = {
+					exists = c:BNY
+					ROOT = c:BNY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BNY
+			}
+			if = {
+				limit = {
+					exists = c:ANK
+					ROOT = c:ANK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ANK
+			}
+			if = {
+				limit = {
+					exists = c:ACH
+					ROOT = c:ACH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ACH
+			}
+			if = {
+				limit = {
+					exists = c:KRG
+					ROOT = c:KRG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KRG
+			}
+			if = {
+				limit = {
+					exists = c:RWD
+					ROOT = c:RWD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:RWD
+			}
+			if = {
+				limit = {
+					exists = c:BRD
+					ROOT = c:BRD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRD
+			}
+			if = {
+				limit = {
+					exists = c:MSI
+					ROOT = c:MSI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MSI
+			}
+			if = {
+				limit = {
+					exists = c:TRK
+					ROOT = c:TRK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRK
+			}
+			if = {
+				limit = {
+					exists = c:LUO
+					ROOT = c:LUO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LUO
+			}
+			if = {
+				limit = {
+					exists = c:GGO
+					ROOT = c:GGO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GGO
+			}
+			if = {
+				limit = {
+					exists = c:SNG
+					ROOT = c:SNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SNG
+			}
+			if = {
+				limit = {
+					exists = c:KKY
+					ROOT = c:KKY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KKY
+			}
+			if = {
+				limit = {
+					exists = c:WSG
+					ROOT = c:WSG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WSG
+			}
+			if = {
+				limit = {
+					exists = c:GLD
+					ROOT = c:GLD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GLD
+			}
+			if = {
+				limit = {
+					exists = c:MJT
+					ROOT = c:MJT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MJT
+			}
+			if = {
+				limit = {
+					exists = c:DFR
+					ROOT = c:DFR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DFR
+			}
+			if = {
+				limit = {
+					exists = c:ISQ
+					ROOT = c:ISQ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ISQ
+			}
+			if = {
+				limit = {
+					exists = c:HOB
+					ROOT = c:HOB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HOB
+			}
+			if = {
+				limit = {
+					exists = c:DAK
+					ROOT = c:DAK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DAK
+			}
+			if = {
+				limit = {
+					exists = c:ZND
+					ROOT = c:ZND
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ZND
+			}
+			if = {
+				limit = {
+					exists = c:DFT
+					ROOT = c:DFT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DFT
+			}
+			if = {
+				limit = {
+					exists = c:DNK
+					ROOT = c:DNK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DNK
+			}
+			if = {
+				limit = {
+					exists = c:NUE
+					ROOT = c:NUE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NUE
+			}
+			if = {
+				limit = {
+					exists = c:TPS
+					ROOT = c:TPS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TPS
+			}
+			if = {
+				limit = {
+					exists = c:AWS
+					ROOT = c:AWS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AWS
+			}
+			if = {
+				limit = {
+					exists = c:SHW
+					ROOT = c:SHW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SHW
+			}
+			if = {
+				limit = {
+					exists = c:HAR
+					ROOT = c:HAR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HAR
+			}
+			if = {
+				limit = {
+					exists = c:BRN
+					ROOT = c:BRN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRN
+			}
+			if = {
+				limit = {
+					exists = c:KFA
+					ROOT = c:KFA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KFA
+			}
+			if = {
+				limit = {
+					exists = c:SDM
+					ROOT = c:SDM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SDM
+			}
+			if = {
+				limit = {
+					exists = c:WLG
+					ROOT = c:WLG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WLG
+			}
+			if = {
+				limit = {
+					exists = c:TGR
+					ROOT = c:TGR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TGR
+			}
+			if = {
+				limit = {
+					exists = c:GJM
+					ROOT = c:GJM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GJM
+			}
+			if = {
+				limit = {
+					exists = c:WLO
+					ROOT = c:WLO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WLO
+			}
+			if = {
+				limit = {
+					exists = c:BGM
+					ROOT = c:BGM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BGM
+			}
+			if = {
+				limit = {
+					exists = c:BOR
+					ROOT = c:BOR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BOR
+			}
+			if = {
+				limit = {
+					exists = c:BGI
+					ROOT = c:BGI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BGI
+			}
+			if = {
+				limit = {
+					exists = c:WAD
+					ROOT = c:WAD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WAD
+			}
+			if = {
+				limit = {
+					exists = c:AIR
+					ROOT = c:AIR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AIR
+			}
+			if = {
+				limit = {
+					exists = c:MSN
+					ROOT = c:MSN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MSN
+			}
+			if = {
+				limit = {
+					exists = c:OYO
+					ROOT = c:OYO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OYO
+			}
+			if = {
+				limit = {
+					exists = c:BEN
+					ROOT = c:BEN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BEN
+			}
+			if = {
+				limit = {
+					exists = c:CAY
+					ROOT = c:CAY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CAY
+			}
+			if = {
+				limit = {
+					exists = c:JLF
+					ROOT = c:JLF
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JLF
+			}
+			if = {
+				limit = {
+					exists = c:FTR
+					ROOT = c:FTR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FTR
+			}
+			if = {
+				limit = {
+					exists = c:KNG
+					ROOT = c:KNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KNG
+			}
+			if = {
+				limit = {
+					exists = c:DAH
+					ROOT = c:DAH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DAH
+			}
+			if = {
+				limit = {
+					exists = c:MOS
+					ROOT = c:MOS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MOS
+			}
+			if = {
+				limit = {
+					exists = c:KRT
+					ROOT = c:KRT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KRT
+			}
+			if = {
+				limit = {
+					exists = c:SGU
+					ROOT = c:SGU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SGU
+			}
+			if = {
+				limit = {
+					exists = c:TRZ
+					ROOT = c:TRZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TRZ
+			}
+			if = {
+				limit = {
+					exists = c:KBU
+					ROOT = c:KBU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KBU
+			}
+			if = {
+				limit = {
+					exists = c:BND
+					ROOT = c:BND
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BND
+			}
+			if = {
+				limit = {
+					exists = c:SRR
+					ROOT = c:SRR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SRR
+			}
+			if = {
+				limit = {
+					exists = c:SSU
+					ROOT = c:SSU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SSU
+			}
+			if = {
+				limit = {
+					exists = c:MDK
+					ROOT = c:MDK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MDK
+			}
+			if = {
+				limit = {
+					exists = c:HAU
+					ROOT = c:HAU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HAU
+			}
+			if = {
+				limit = {
+					exists = c:BLE
+					ROOT = c:BLE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BLE
+			}
+			if = {
+				limit = {
+					exists = c:KRU
+					ROOT = c:KRU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KRU
+			}
+			if = {
+				limit = {
+					exists = c:KBD
+					ROOT = c:KBD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KBD
+			}
+			if = {
+				limit = {
+					exists = c:AYI
+					ROOT = c:AYI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AYI
+			}
+			if = {
+				limit = {
+					exists = c:EWE
+					ROOT = c:EWE
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:EWE
+			}
+			if = {
+				limit = {
+					exists = c:IBO
+					ROOT = c:IBO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IBO
+			}
+			if = {
+				limit = {
+					exists = c:DLA
+					ROOT = c:DLA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DLA
+			}
+			if = {
+				limit = {
+					exists = c:TBI
+					ROOT = c:TBI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TBI
+			}
+			if = {
+				limit = {
+					exists = c:AHG
+					ROOT = c:AHG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AHG
+			}
+			if = {
+				limit = {
+					exists = c:TUA
+					ROOT = c:TUA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TUA
+			}
+			if = {
+				limit = {
+					exists = c:OUA
+					ROOT = c:OUA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:OUA
+			}
+			if = {
+				limit = {
+					exists = c:ADG
+					ROOT = c:ADG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ADG
+			}
+			if = {
+				limit = {
+					exists = c:BSS
+					ROOT = c:BSS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BSS
+			}
+			if = {
+				limit = {
+					exists = c:TIR
+					ROOT = c:TIR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TIR
+			}
+			if = {
+				limit = {
+					exists = c:IBL
+					ROOT = c:IBL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IBL
+			}
+			if = {
+				limit = {
+					exists = c:KSS
+					ROOT = c:KSS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KSS
+			}
+			if = {
+				limit = {
+					exists = c:GAO
+					ROOT = c:GAO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GAO
+			}
+			if = {
+				limit = {
+					exists = c:TIV
+					ROOT = c:TIV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TIV
+			}
+			if = {
+				limit = {
+					exists = c:SRA
+					ROOT = c:SRA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SRA
+			}
+			if = {
+				limit = {
+					exists = c:EQU
+					ROOT = c:EQU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:EQU
+			}
+			if = {
+				limit = {
+					exists = c:BJA
+					ROOT = c:BJA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BJA
+			}
+			if = {
+				limit = {
+					exists = c:NBA
+					ROOT = c:NBA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NBA
+			}
+			if = {
+				limit = {
+					exists = c:SUD
+					ROOT = c:SUD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SUD
+			}
+			if = {
+				limit = {
+					exists = c:SKM
+					ROOT = c:SKM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SKM
+			}
+			if = {
+				limit = {
+					exists = c:CHW
+					ROOT = c:CHW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:CHW
+			}
+			if = {
+				limit = {
+					exists = c:LMW
+					ROOT = c:LMW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:LMW
+			}
+			if = {
+				limit = {
+					exists = c:MKU
+					ROOT = c:MKU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MKU
+			}
+			if = {
+				limit = {
+					exists = c:SNA
+					ROOT = c:SNA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SNA
+			}
+			if = {
+				limit = {
+					exists = c:BTG
+					ROOT = c:BTG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BTG
+			}
+			if = {
+				limit = {
+					exists = c:XHO
+					ROOT = c:XHO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:XHO
+			}
+			if = {
+				limit = {
+					exists = c:UYA
+					ROOT = c:UYA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UYA
+			}
+			if = {
+				limit = {
+					exists = c:ZIM
+					ROOT = c:ZIM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ZIM
+			}
+			if = {
+				limit = {
+					exists = c:MAL
+					ROOT = c:MAL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MAL
+			}
+			if = {
+				limit = {
+					exists = c:AFS
+					ROOT = c:AFS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AFS
+			}
+			if = {
+				limit = {
+					exists = c:SAH
+					ROOT = c:SAH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAH
+			}
+			if = {
+				limit = {
+					exists = c:TUG
+					ROOT = c:TUG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TUG
+			}
+			if = {
+				limit = {
+					exists = c:AIT
+					ROOT = c:AIT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AIT
+			}
+			if = {
+				limit = {
+					exists = c:GZA
+					ROOT = c:GZA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GZA
+			}
+			if = {
+				limit = {
+					exists = c:MRV
+					ROOT = c:MRV
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MRV
+			}
+			if = {
+				limit = {
+					exists = c:BRG
+					ROOT = c:BRG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BRG
+			}
+			if = {
+				limit = {
+					exists = c:BMM
+					ROOT = c:BMM
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BMM
+			}
+			if = {
+				limit = {
+					exists = c:HAW
+					ROOT = c:HAW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HAW
+			}
+			if = {
+				limit = {
+					exists = c:NTU
+					ROOT = c:NTU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NTU
+			}
+			if = {
+				limit = {
+					exists = c:NTO
+					ROOT = c:NTO
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NTO
+			}
+			if = {
+				limit = {
+					exists = c:KNK
+					ROOT = c:KNK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KNK
+			}
+			if = {
+				limit = {
+					exists = c:PPU
+					ROOT = c:PPU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PPU
+			}
+			if = {
+				limit = {
+					exists = c:HLA
+					ROOT = c:HLA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:HLA
+			}
+			if = {
+				limit = {
+					exists = c:BLA
+					ROOT = c:BLA
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BLA
+			}
+			if = {
+				limit = {
+					exists = c:BLG
+					ROOT = c:BLG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BLG
+			}
+			if = {
+				limit = {
+					exists = c:KTI
+					ROOT = c:KTI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KTI
+			}
+			if = {
+				limit = {
+					exists = c:FJI
+					ROOT = c:FJI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:FJI
+			}
+			if = {
+				limit = {
+					exists = c:SKH
+					ROOT = c:SKH
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SKH
+			}
+			if = {
+				limit = {
+					exists = c:MCR
+					ROOT = c:MCR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MCR
+			}
+			if = {
+				limit = {
+					exists = c:VNT
+					ROOT = c:VNT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:VNT
+			}
+			if = {
+				limit = {
+					exists = c:NRU
+					ROOT = c:NRU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NRU
+			}
+			if = {
+				limit = {
+					exists = c:PLY
+					ROOT = c:PLY
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PLY
+			}
+			if = {
+				limit = {
+					exists = c:AOT
+					ROOT = c:AOT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AOT
+			}
+			if = {
+				limit = {
+					exists = c:ULR
+					ROOT = c:ULR
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:ULR
+			}
+			if = {
+				limit = {
+					exists = c:NSW
+					ROOT = c:NSW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NSW
+			}
+			if = {
+				limit = {
+					exists = c:WAS
+					ROOT = c:WAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:WAS
+			}
+			if = {
+				limit = {
+					exists = c:SAS
+					ROOT = c:SAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAS
+			}
+			if = {
+				limit = {
+					exists = c:UNT
+					ROOT = c:UNT
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:UNT
+			}
+			if = {
+				limit = {
+					exists = c:NNG
+					ROOT = c:NNG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NNG
+			}
+			if = {
+				limit = {
+					exists = c:KAU
+					ROOT = c:KAU
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:KAU
+			}
+			if = {
+				limit = {
+					exists = c:GML
+					ROOT = c:GML
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:GML
+			}
+			if = {
+				limit = {
+					exists = c:AST
+					ROOT = c:AST
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:AST
+			}
+			if = {
+				limit = {
+					exists = c:NZL
+					ROOT = c:NZL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:NZL
+			}
+			if = {
+				limit = {
+					exists = c:TAS
+					ROOT = c:TAS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TAS
+			}
+			if = {
+				limit = {
+					exists = c:DEI
+					ROOT = c:DEI
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:DEI
+			}
+			if = {
+				limit = {
+					exists = c:SAK
+					ROOT = c:SAK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SAK
+			}
+			if = {
+				limit = {
+					exists = c:PON
+					ROOT = c:PON
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PON
+			}
+			if = {
+				limit = {
+					exists = c:SMB
+					ROOT = c:SMB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SMB
+			}
+			if = {
+				limit = {
+					exists = c:JMB
+					ROOT = c:JMB
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:JMB
+			}
+			if = {
+				limit = {
+					exists = c:YOG
+					ROOT = c:YOG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YOG
+			}
+			if = {
+				limit = {
+					exists = c:SRK
+					ROOT = c:SRK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SRK
+			}
+			if = {
+				limit = {
+					exists = c:BTN
+					ROOT = c:BTN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BTN
+			}
+			if = {
+				limit = {
+					exists = c:SEL
+					ROOT = c:SEL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SEL
+			}
+			if = {
+				limit = {
+					exists = c:PRK
+					ROOT = c:PRK
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PRK
+			}
+			if = {
+				limit = {
+					exists = c:SUL
+					ROOT = c:SUL
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SUL
+			}
+			if = {
+				limit = {
+					exists = c:SLW
+					ROOT = c:SLW
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:SLW
+			}
+			if = {
+				limit = {
+					exists = c:TID
+					ROOT = c:TID
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:TID
+			}
+			if = {
+				limit = {
+					exists = c:STG
+					ROOT = c:STG
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:STG
+			}
+			if = {
+				limit = {
+					exists = c:BNJ
+					ROOT = c:BNJ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:BNJ
+			}
+			if = {
+				limit = {
+					exists = c:IDN
+					ROOT = c:IDN
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:IDN
+			}
+			if = {
+				limit = {
+					exists = c:MGD
+					ROOT = c:MGD
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:MGD
+			}
+			if = {
+				limit = {
+					exists = c:YUZ
+					ROOT = c:YUZ
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:YUZ
+			}
+			if = {
+				limit = {
+					exists = c:PNS
+					ROOT = c:PNS
+				}
+				move_pop = s:STATE_ILLINOIS.region_state:PNS
+			}
+		}
+	}
+}
